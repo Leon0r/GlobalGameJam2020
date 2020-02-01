@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>/Users/marcosmontero/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/El Juego/El juego/</ProjectRoot>
+		<SourceFilesRoot>/Users/marcosmontero/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/El Juego/El juego/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/marcosmontero/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/El Juego/El juego/SoundBanks/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/marcosmontero/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/El Juego/El juego/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1498460211" Name="Aterriza" ObjectPath="\Events\Default Work Unit\Aterriza"/>
+				<Event Id="983016362" Name="Cae" ObjectPath="\Events\Default Work Unit\Cae"/>
+				<Event Id="3026462669" Name="Pasos" ObjectPath="\Events\Default Work Unit\Pasos"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="35271442" Language="SFX">
+					<ShortName>Metal, Impact, Drum, Thud, Rattle 2 SND7030.wav</ShortName>
+					<Path>SFX/Metal, Impact, Drum, Thud, Rattle 2 SND7030_10C4C929.wem</Path>
+				</File>
+				<File Id="36881717" Language="SFX">
+					<ShortName>Bullet, Impact, Metal, Light 7 SND6458.wav</ShortName>
+					<Path>SFX/Bullet, Impact, Metal, Light 7 SND6458_10C4C929.wem</Path>
+				</File>
+				<File Id="39415663" Language="SFX">
+					<ShortName>Impact, Stone, Large, Hit Ground 1 SND30291.wav</ShortName>
+					<Path>SFX/Impact, Stone, Large, Hit Ground 1 SND30291_10C4C929.wem</Path>
+				</File>
+				<File Id="43832266" Language="SFX">
+					<ShortName>Bullet, Impact, Metal, Light 3 SND6390.wav</ShortName>
+					<Path>SFX/Bullet, Impact, Metal, Light 3 SND6390_10C4C929.wem</Path>
+				</File>
+				<File Id="183003567" Language="SFX">
+					<ShortName>Impact, Stone, Rock, Hit Floor SND30286.wav</ShortName>
+					<Path>SFX/Impact, Stone, Rock, Hit Floor SND30286_10C4C929.wem</Path>
+				</File>
+				<File Id="237446215" Language="SFX">
+					<ShortName>Impact, Stone, Rock, Hit Floor SND30286 1.wav</ShortName>
+					<Path>SFX/Impact, Stone, Rock, Hit Floor SND30286 1_10C4C929.wem</Path>
+				</File>
+				<File Id="249980797" Language="SFX">
+					<ShortName>Earthquake, Impact, Crack 04 SND13428.wav</ShortName>
+					<Path>SFX/Earthquake, Impact, Crack 04 SND13428_24702AFB.wem</Path>
+				</File>
+				<File Id="353362043" Language="SFX">
+					<ShortName>Bullet, Impact, Metal, Heavy 7 SND6394.wav</ShortName>
+					<Path>SFX/Bullet, Impact, Metal, Heavy 7 SND6394_10C4C929.wem</Path>
+				</File>
+				<File Id="400448547" Language="SFX">
+					<ShortName>Bullet, Impact, Metal, Heavy 3 SND6398.wav</ShortName>
+					<Path>SFX/Bullet, Impact, Metal, Heavy 3 SND6398_10C4C929.wem</Path>
+				</File>
+				<File Id="515731750" Language="SFX">
+					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_42D009A6.wem</Path>
+				</File>
+				<File Id="525621252" Language="SFX">
+					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_A893A7BE.wem</Path>
+				</File>
+				<File Id="605443248" Language="SFX">
+					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_6175F498.wem</Path>
+				</File>
+				<File Id="737266220" Language="SFX">
+					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_23A3FC15.wem</Path>
+				</File>
+				<File Id="825483097" Language="SFX">
+					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_B73C62CF.wem</Path>
+				</File>
+				<File Id="840500314" Language="SFX">
+					<ShortName>Bullet, Impact, Metal, Heavy 1 SND6400.wav</ShortName>
+					<Path>SFX/Bullet, Impact, Metal, Heavy 1 SND6400_10C4C929.wem</Path>
+				</File>
+				<File Id="856744796" Language="SFX">
+					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_EADF31F2.wem</Path>
+				</File>
+				<File Id="911474110" Language="SFX">
+					<ShortName>Metal, Impact, Drum, Thud 1 SND7032.wav</ShortName>
+					<Path>SFX/Metal, Impact, Drum, Thud 1 SND7032_10C4C929.wem</Path>
+				</File>
+				<File Id="916245545" Language="SFX">
+					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_8BABD960.wem</Path>
+				</File>
+				<File Id="980963904" Language="SFX">
+					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_9C6C0598.wem</Path>
+				</File>
+				<File Id="1000140916" Language="SFX">
+					<ShortName>Impact, Stone, Large, Hit Ground 3 SND30289.wav</ShortName>
+					<Path>SFX/Impact, Stone, Large, Hit Ground 3 SND30289_10C4C929.wem</Path>
+				</File>
+				<File Id="1000148977" Language="SFX">
+					<ShortName>Design, Whoosh, Wind, Soft 3 SND11997.wav</ShortName>
+					<Path>SFX/Design, Whoosh, Wind, Soft 3 SND11997_B2912096.wem</Path>
+				</File>
+				<File Id="1035041268" Language="SFX">
+					<ShortName>Metal, Impact, Drum, Thud 3 SND7033.wav</ShortName>
+					<Path>SFX/Metal, Impact, Drum, Thud 3 SND7033_10C4C929.wem</Path>
+				</File>
+				<File Id="1040151074" Language="SFX">
+					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_3705DD0B.wem</Path>
+				</File>
+				<File Id="1049911430" Language="SFX">
+					<ShortName>Impact, Stone, Large, Hit Ground 5 SND30287.wav</ShortName>
+					<Path>SFX/Impact, Stone, Large, Hit Ground 5 SND30287_10C4C929.wem</Path>
+				</File>
+				<File Id="1061293933" Language="SFX">
+					<ShortName>Metal, Impact, Drum, Thud, Rattle 1 SND7031.wav</ShortName>
+					<Path>SFX/Metal, Impact, Drum, Thud, Rattle 1 SND7031_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
