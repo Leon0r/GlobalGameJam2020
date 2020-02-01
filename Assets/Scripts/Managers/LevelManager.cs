@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour
 
     // Control of the player movement
     private bool isMoving;
+    private bool repairing;
     private Vector3 lastPlayerPosition;
 
     // Timer y cosos
@@ -20,6 +21,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         lastPlayerPosition = playerMovement.transform.position;
+        repairing = false;
     }
 
     // Update is called once per frame
@@ -34,12 +36,12 @@ public class LevelManager : MonoBehaviour
             timeLeft = idleTime;
         }
 
-        if(timeLeft < 0) {
-
+        if (timeLeft < 0) { 
+            repairing = true;
         }
 
         for (int i = 0; i < platforms.Length; i++) {
-            if (platforms[i].isRepairable) {
+            if (platforms[i].isRepairable && repairing) {
                 platforms[i].UpdateState();
             }
         }

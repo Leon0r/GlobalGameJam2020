@@ -63,6 +63,7 @@ public class Platform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        insideViewPort = false;
         posOr = transform.position;
         rotOr = transform.rotation;
 
@@ -156,12 +157,11 @@ public class Platform : MonoBehaviour
         transform.rotation = rotOr;
     }
 
-    private void OnBecameVisible() {
-        // El timer de jugador parado esté a 0
-        if (!Camera.main.GetComponent<RangerMode>().GetRangerMode())
-            insideViewPort = true;
-    }
-    public void UpdateState() {
+    public void UpdateState()
+    {
+        //Vector3 screenPoint = Camera.main.WorldToViewportPoint(transform.position);
+        //insideViewPort = screenPoint.z > 0 && screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
+        insideViewPort = Camera.main.IsObjectVisible(GetComponent<SpriteRenderer>());
         if (insideViewPort) {
             if (!activation.enabled) {
                 Repair();
@@ -202,7 +202,7 @@ public class Platform : MonoBehaviour
     void HorizMove()
     {
         iTween.MoveTo(gameObject, iTween.Hash("x", transform.position.x + distanceX,
-            "time", distanceX / velHorz,
+            "time", Math.Abs(distanceX / velHorz),
             "easeType", "linear", 
             "loopType", "pingPong"));
     }
@@ -210,7 +210,7 @@ public class Platform : MonoBehaviour
     void VertMove()
     {
         iTween.MoveTo(gameObject, iTween.Hash("y", transform.position.y + distanceY,
-            "time", distanceY / velVert,
+            "time", Math.Abs(distanceY / velVert),
             "easeType", "linear",
             "loopType", "pingPong"));
     }
@@ -220,7 +220,7 @@ public class Platform : MonoBehaviour
         float hypotenuse = (float)Math.Sqrt((Math.Pow(distanceDiagonalX, 2) + Math.Pow(distanceDiagonalY, 2)));
         iTween.MoveTo(gameObject, iTween.Hash("x", distanceDiagonalX,
             "y", distanceDiagonalY,
-            "time", hypotenuse / velDiag,
+            "time", Math.Abs(hypotenuse / velDiag),
             "easeType", "linear",
             "loopType", "pingPong"));
     }
