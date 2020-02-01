@@ -23,12 +23,14 @@ public class Platform : MonoBehaviour
     private Vector3 posOr; // Posicion original para resetear
     private Quaternion rotOr; // Rotación original para resetar
 
+    private bool insideViewPort;
+
     // Variables públicas
     [System.Serializable]
     public enum RotationDir { Horario, Antihorario };
 
     [System.Serializable]
-    public enum Axis { x, y, z};
+    public enum Axis { x, y, z };
 
     [Header("Repairable")]
     public bool isRepairable;
@@ -39,7 +41,7 @@ public class Platform : MonoBehaviour
     public float velVert;      // El tiempo que tarda en moverse
 
     [Header("Horizontal")]
-    public bool movesHorz; 
+    public bool movesHorz;
     public System.Int32 distanceX;
     public float velHorz;
 
@@ -50,7 +52,7 @@ public class Platform : MonoBehaviour
     public float velDiag;
 
     [Header("Rotación")]
-    public bool rotates; 
+    public bool rotates;
     public RotationDir rotationDirection;
     public Axis rotationAxis;
 
@@ -104,6 +106,19 @@ public class Platform : MonoBehaviour
             // Deactivate component
             activation.enabled = false;
         }
+        // Si no es reparable, significa que va a estar activada siempre, así que establecemos los diferentes movimientos
+        else if (movesHorz)
+        {
+            HorizMove();
+        }
+        else if (movesVert)
+        {
+            VertMove();
+        }
+        else if (movesDiagonally)
+        {
+            DiagMove();
+        }
     }
 
     // Update is called once per frame
@@ -141,7 +156,26 @@ public class Platform : MonoBehaviour
         transform.rotation = rotOr;
     }
 
-    void Repair()
+    private void OnBecameVisible() {
+        // El timer de jugador parado esté a 0
+        if (!Camera.main.GetComponent<RangerMode>().GetRangerMode())
+            insideViewPort = true;
+    }
+    public void UpdateState() {
+        if (insideViewPort) {
+            if (!activation.enabled) {
+                Repair();
+            }
+        }
+        else {
+            if (activation.enabled)
+            {
+                Destroy();
+            }
+        }
+    }
+
+    public void Repair()
     {
         // anim.Play();
         activation.enabled = true;
@@ -167,7 +201,7 @@ public class Platform : MonoBehaviour
     
     void HorizMove()
     {
-        iTween.MoveTo(gameObject, iTween.Hash("x", distanceX,
+        iTween.MoveTo(gameObject, iTween.Hash("x", transform.position.x + distanceX,
             "time", distanceX / velHorz,
             "easeType", "linear", 
             "loopType", "pingPong"));
@@ -175,7 +209,7 @@ public class Platform : MonoBehaviour
 
     void VertMove()
     {
-        iTween.MoveTo(gameObject, iTween.Hash("y", distanceY,
+        iTween.MoveTo(gameObject, iTween.Hash("y", transform.position.y + distanceY,
             "time", distanceY / velVert,
             "easeType", "linear",
             "loopType", "pingPong"));

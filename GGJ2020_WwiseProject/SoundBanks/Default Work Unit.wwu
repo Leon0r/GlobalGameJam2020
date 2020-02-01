@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{43A9A4C9-96C5-4DD1-BA0E-55E5E0A1D5D0}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{08B35B7C-A827-41A0-93C9-375504BE3B16}" SchemaVersion="94">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{43A9A4C9-96C5-4DD1-BA0E-55E5E0A1D5D0}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{08B35B7C-A827-41A0-93C9-375504BE3B16}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="test" ID="{C9D805CA-BC59-438E-A751-C54E6A7FABE0}">
+				<SoundBank Name="Main" ID="{4D3747C8-22AA-484F-A8FC-FE81FF7D0C47}">
 					<ObjectInclusionList>
-						<ObjectRef Name="testEvent" ID="{6E9EC9BF-01B6-4AD2-91DB-CD4052049473}" WorkUnitID="{24EFF3B9-C829-4FF6-84A0-18FA97B07D8C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pasos" ID="{663E4045-1EDB-4088-A804-ABC1F9E99460}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cae" ID="{75B3B938-3298-433F-9144-572CEE24DB8D}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Aterriza" ID="{157BDB61-B798-4A30-A537-D7C040515599}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
