@@ -6,11 +6,10 @@
 				<Event Name="testEvent" ID="{6E9EC9BF-01B6-4AD2-91DB-CD4052049473}">
 					<ChildrenList>
 						<Action Name="" ID="{4ACCA929-575E-486C-99CC-59ADB864BAB4}" ShortID="480774978">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="03 Domestic Chiming Clock, Three-Qua" ID="{DA3CB2CF-32D9-4964-AB99-4A968E704AD5}" WorkUnitID="{DFBD9A1E-FF91-43BC-9E77-F30EB87843DB}"/>
-								</Reference>
-							</ReferenceList>
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>
