@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9BD7A32A-B09B-4130-B6DA-9FB31C50A909}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{AA56717B-A348-4CE7-863D-97AE4DECEF6A}" SchemaVersion="94">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{9BD7A32A-B09B-4130-B6DA-9FB31C50A909}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AA56717B-A348-4CE7-863D-97AE4DECEF6A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Pasos" ID="{4028AABE-AA8A-4727-B468-042DC1A65579}">
+					<ChildrenList>
+						<Switch Name="Metal" ID="{162E23E5-F356-4C11-B7C9-FAA781D7D8C6}"/>
+						<Switch Name="Piedra" ID="{CCF54A9D-3567-4A50-833D-5DC7BD4A9D38}"/>
+						<Switch Name="Agua" ID="{9851EA9C-088D-44A9-AB73-9133E178DAE2}"/>
+						<Switch Name="Madera" ID="{6C125956-1ED2-41A6-8B16-82CE226051C7}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Menu" ID="{37DC00B7-832F-4846-BB7A-C7DCFA90094C}">
+					<ChildrenList>
+						<Switch Name="Pause" ID="{175377FB-B3F9-4876-91D2-E8FCA0FD5F8D}"/>
+						<Switch Name="Play" ID="{D7AA93D6-4F38-4F37-9711-352576BEEB33}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

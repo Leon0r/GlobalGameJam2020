@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1097980931	testEvent			\Default Work Unit\testEvent	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1051021140	03 Domestic Chiming Clock, Three-Qua	D:\GameJam\GGJ2020\Repo\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\03 Domestic Chiming Clock, Three-Qua_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\03 Domestic Chiming Clock, Three-Qua		6557440
-
