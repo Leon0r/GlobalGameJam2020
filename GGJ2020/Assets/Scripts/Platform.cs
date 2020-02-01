@@ -104,6 +104,19 @@ public class Platform : MonoBehaviour
             // Deactivate component
             activation.enabled = false;
         }
+        // Si no es reparable, significa que va a estar activada siempre, así que establecemos los diferentes movimientos
+        else if (movesHorz)
+        {
+            HorizMove();
+        }
+        else if (movesVert)
+        {
+            VertMove();
+        }
+        else if (movesDiagonally)
+        {
+            DiagMove();
+        }
     }
 
     // Update is called once per frame
@@ -167,7 +180,7 @@ public class Platform : MonoBehaviour
     
     void HorizMove()
     {
-        iTween.MoveTo(gameObject, iTween.Hash("x", distanceX,
+        iTween.MoveTo(gameObject, iTween.Hash("x", transform.position.x + distanceX,
             "time", distanceX / velHorz,
             "easeType", "linear", 
             "loopType", "pingPong"));
@@ -175,7 +188,7 @@ public class Platform : MonoBehaviour
 
     void VertMove()
     {
-        iTween.MoveTo(gameObject, iTween.Hash("y", distanceY,
+        iTween.MoveTo(gameObject, iTween.Hash("y", transform.position.y + distanceY,
             "time", distanceY / velVert,
             "easeType", "linear",
             "loopType", "pingPong"));
