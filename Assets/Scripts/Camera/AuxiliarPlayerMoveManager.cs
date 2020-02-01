@@ -12,9 +12,11 @@ public class AuxiliarPlayerMoveManager : MonoBehaviour
 
     CameraController cameraController;
     ReturnHome returnHome;
+    PlayerMovement playerMovement;
     void Start() {
         returnHome = GetComponent<ReturnHome>();
         cameraController = GetComponent<CameraController>();
+        playerMovement = GetComponentInParent<PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -22,9 +24,12 @@ public class AuxiliarPlayerMoveManager : MonoBehaviour
         movingX = (Input.GetAxisRaw("Horizontal") != 0);
         movingY = (Input.GetAxisRaw("Vertical") != 0);
         if (!movingX && !movingY) {
+            Camera.main.GetComponent<RangerMode>().SetRangerMode(false);
             returnHome.Move();
         }
-        else {
+        else
+        {
+            Camera.main.GetComponent<RangerMode>().SetRangerMode(true);
             cameraController.Move();
         }
     }
