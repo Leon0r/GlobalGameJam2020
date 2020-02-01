@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6e109ae1e98dc47a1f28923f7806b0, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2816699e42885048b4bea71ba3188fb3
+    GuidInternal: 
+    m_lastTime: -8586210328714775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e5734bf55936c74daaf255b261e9a40c
+    GuidInternal: 
+    m_lastTime: -8586210328714775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7c5bb30827a8a04193c9375504be3b16
+    GuidInternal: 
+    m_lastTime: -8586210241094775808
+    List:
+    - name: Main
+      guid: c847374daa224f48a8fcfe81ff7d0c47
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cc371c76f657324596493641c75fa459
+    GuidInternal: 
+    m_lastTime: -8586210249514775808
+    List:
+    - name: Aterriza
+      guid: 61db7b1598b7304aa537d7c040515599
+      id: 1498460211
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Aterriza
+        ObjectType: 3
+      Path: Default Work Unit\Aterriza
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cae
+      guid: 38b9b37598323f439144572cee24db8d
+      id: 983016362
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cae
+        ObjectType: 3
+      Path: Default Work Unit\Cae
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: End
+      guid: e80a38ab7a023d4ab9cdb59a5481369b
+      id: 529726532
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: End
+        ObjectType: 3
+      Path: Default Work Unit\End
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Gases
+      guid: cb3ee08d19f518428bf9e16a030e8fcf
+      id: 2907068388
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gases
+        ObjectType: 3
+      Path: Default Work Unit\Gases
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Muerte
+      guid: d170c7ce19fb224586f7c488cf1ac7dd
+      id: 4243306039
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Muerte
+        ObjectType: 3
+      Path: Default Work Unit\Muerte
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pasos
+      guid: 45403e66db1e8840a804abc1f9e99460
+      id: 3026462669
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pasos
+        ObjectType: 3
+      Path: Default Work Unit\Pasos
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Reparar
+      guid: 703eda0c6fe7e241b8fdaf59a36be427
+      id: 2769925586
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Reparar
+        ObjectType: 3
+      Path: Default Work Unit\Reparar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Salto
+      guid: d56823b02b43724bba013688d5fa125c
+      id: 2948438984
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Salto
+        ObjectType: 3
+      Path: Default Work Unit\Salto
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start
+      guid: cda929029f9c6b44b0a8fe3237e20a78
+      id: 1281810935
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Start
+        ObjectType: 3
+      Path: Default Work Unit\Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 369ec5632e03d94992bff3803d99782d
+    GuidInternal: 
+    m_lastTime: -8586210328714775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d2a488a98ad82b4ca90cb3d9db240c84
+    GuidInternal: 
+    m_lastTime: -8586210328714775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7b7156aa48a3e74c863d97ae4decef6a
+    GuidInternal: 
+    m_lastTime: -8586210269754775808
+    List:
+    - name: Menu
+      guid: b700dc372f834648bb7ac7dcfa90094c
+      id: 2607556080
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu
+        ObjectType: 11
+      Path: Default Work Unit\Menu
+      values:
+      - name: Pause
+        guid: fb775317f9b3764891d2e8fca0fd5f8d
+        id: 3092587493
+        PathAndIcons:
+        - ElementName: Pause
+          ObjectType: 10
+      - name: Play
+        guid: d693aad7384f374f9711352576beeb33
+        id: 1256202815
+        PathAndIcons:
+        - ElementName: Play
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Pasos
+      guid: beaa28408aaa2747b468042dc1a65579
+      id: 3026462669
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pasos
+        ObjectType: 11
+      Path: Default Work Unit\Pasos
+      values:
+      - name: Agua
+        guid: 9cea51988d08a944ab739133e178dae2
+        id: 3219867671
+        PathAndIcons:
+        - ElementName: Agua
+          ObjectType: 10
+      - name: Madera
+        guid: 5659126cd21ea6418b1682ce226051c7
+        id: 2306462273
+        PathAndIcons:
+        - ElementName: Madera
+          ObjectType: 10
+      - name: Metal
+        guid: e5232e1656f3114cb7c9faa781d7d8c6
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Metal
+          ObjectType: 10
+      - name: Piedra
+        guid: 9d4af5cc6735504a833d5dc7bd4a9d38
+        id: 1926317228
+        PathAndIcons:
+        - ElementName: Piedra
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 02f2d6578af0f74cb691cb34d417169c
+    GuidInternal: 
+    m_lastTime: -8586210328714775808
+    List: []
+  ExpandedItems:
+  - /El juego
+  - /El juego/Events
+  - /El juego/Events/Default Work Unit
+  - /El juego/SoundBanks
+  - /El juego/SoundBanks/Default Work Unit
+  - /El juego/Switches
+  - /El juego/Switches/Default Work Unit
+  - /El juego/Switches/Default Work Unit/Pasos
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

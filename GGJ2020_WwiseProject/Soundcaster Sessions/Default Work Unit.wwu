@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CCBFDA2-5BDC-422A-A3AF-6A14565D08C2}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{0CCBFDA2-5BDC-422A-A3AF-6A14565D08C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{75BEB284-DC67-4615-8125-207EDE983D62}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Pasos" ID="{663E4045-1EDB-4088-A804-ABC1F9E99460}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cae" ID="{75B3B938-3298-433F-9144-572CEE24DB8D}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Aterriza" ID="{157BDB61-B798-4A30-A537-D7C040515599}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Cae" ID="{75B3B938-3298-433F-9144-572CEE24DB8D}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Agua" ID="{9851EA9C-088D-44A9-AB73-9133E178DAE2}"/>
+						<CurrentSwitchRef Name="Pause" ID="{175377FB-B3F9-4876-91D2-E8FCA0FD5F8D}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08B35B7C-A827-41A0-93C9-375504BE3B16}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{08B35B7C-A827-41A0-93C9-375504BE3B16}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4D3747C8-22AA-484F-A8FC-FE81FF7D0C47}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Pasos" ID="{663E4045-1EDB-4088-A804-ABC1F9E99460}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cae" ID="{75B3B938-3298-433F-9144-572CEE24DB8D}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Aterriza" ID="{157BDB61-B798-4A30-A537-D7C040515599}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

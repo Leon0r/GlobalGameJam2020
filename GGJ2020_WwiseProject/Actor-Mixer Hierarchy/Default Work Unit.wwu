@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Pasos" ID="{48B63679-7812-48B1-982A-A3001F2E3C42}" ShortID="48323653">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Pasos" ID="{0A822A19-E700-4F7E-88F4-EF06E626599E}" ShortID="618713449">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Piedra" ID="{CCF54A9D-3567-4A50-833D-5DC7BD4A9D38}" WorkUnitID="{AA56717B-A348-4CE7-863D-97AE4DECEF6A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Pasos" ID="{4028AABE-AA8A-4727-B468-042DC1A65579}" WorkUnitID="{AA56717B-A348-4CE7-863D-97AE4DECEF6A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Patas" ID="{ACA5F24E-C208-4D22-91F0-D6F00205BC0A}" ShortID="1007903344">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-29</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bullet, Impact, Metal, Heavy 3 SND6398" ID="{6D78CB64-82A4-40D2-BCCD-8818397C1BC8}" ShortID="82665434">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullet, Impact, Metal, Heavy 3 SND6398" ID="{E06A90F3-3545-43FB-A2BF-C65900E29763}" ShortID="400448547">
+													<Language>SFX</Language>
+													<AudioFile>Bullet, Impact, Metal, Heavy 3 SND6398.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullet, Impact, Metal, Heavy 3 SND6398" ID="{E06A90F3-3545-43FB-A2BF-C65900E29763}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullet, Impact, Metal, Heavy 7 SND6394" ID="{95258CE2-50C8-4FEC-9ACE-278BC4AAB8F7}" ShortID="1015379107">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullet, Impact, Metal, Heavy 7 SND6394" ID="{3591E255-8D71-4CE6-959C-4B1DAC7A2072}" ShortID="353362043">
+													<Language>SFX</Language>
+													<AudioFile>Bullet, Impact, Metal, Heavy 7 SND6394.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullet, Impact, Metal, Heavy 7 SND6394" ID="{3591E255-8D71-4CE6-959C-4B1DAC7A2072}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullet, Impact, Metal, Heavy 1 SND6400" ID="{E72B5FAB-FA9B-42B3-B780-D0CFAAD17DBA}" ShortID="90197305">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullet, Impact, Metal, Heavy 1 SND6400" ID="{93735FD3-9D18-4319-B32B-117250C705FE}" ShortID="840500314">
+													<Language>SFX</Language>
+													<AudioFile>Bullet, Impact, Metal, Heavy 1 SND6400.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullet, Impact, Metal, Heavy 1 SND6400" ID="{93735FD3-9D18-4319-B32B-117250C705FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullet, Impact, Metal, Light 3 SND6390" ID="{8004F024-C40D-4EB7-A7A1-FD13E4FE8D54}" ShortID="100814746">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullet, Impact, Metal, Light 3 SND6390" ID="{81FB2AAE-1BDF-4A37-BD02-277846EC0E73}" ShortID="43832266">
+													<Language>SFX</Language>
+													<AudioFile>Bullet, Impact, Metal, Light 3 SND6390.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullet, Impact, Metal, Light 3 SND6390" ID="{81FB2AAE-1BDF-4A37-BD02-277846EC0E73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullet, Impact, Metal, Light 7 SND6458" ID="{7E5C14B8-5D27-4407-96E0-46027792D3DC}" ShortID="631410028">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullet, Impact, Metal, Light 7 SND6458" ID="{3B268ADC-C244-4C77-A105-AF806B51206A}" ShortID="36881717">
+													<Language>SFX</Language>
+													<AudioFile>Bullet, Impact, Metal, Light 7 SND6458.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullet, Impact, Metal, Light 7 SND6458" ID="{3B268ADC-C244-4C77-A105-AF806B51206A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Madera" ID="{A55C85DF-8C5D-4C46-942D-CD16D0DE6CC8}" ShortID="828965485">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{870C7935-E4EC-49FF-B636-597CA92C9ED3}" ShortID="90620311">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{DDACEEA4-3EF7-4D11-A0C6-42E1C3501D7C}" ShortID="825483097">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.231603587962963"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.25727662037037"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Wood, Impact, Hit, Table, Hard SND4258.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="525621252"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{DDACEEA4-3EF7-4D11-A0C6-42E1C3501D7C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood, Impact, Hit, Table, Hard SND4258_01" ID="{C11FAFC3-28EA-4927-AF34-11EF6364D6C6}" ShortID="850280199">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{340206AA-1B86-4F99-8B7A-049C316907B9}" ShortID="916245545">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.2738197337963"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.35739366319444"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Wood, Impact, Hit, Table, Hard SND4258.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{340206AA-1B86-4F99-8B7A-049C316907B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood, Impact, Hit, Table, Hard SND4258_02" ID="{AFD4C02A-8A30-46A8-9634-7A2FC310B06C}" ShortID="614362943">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{5F4E9A32-C1DF-4E1C-B39B-B2C836CA26BE}" ShortID="525621252">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.36566521990741"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.99516189236111"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Wood, Impact, Hit, Table, Hard SND4258.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1040151074"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{5F4E9A32-C1DF-4E1C-B39B-B2C836CA26BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood, Impact, Hit, Table, Hard SND4258_03" ID="{4FDC3238-6AB6-4F5C-AE46-D5D3A3C212CE}" ShortID="347478005">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{5F2C2180-E8ED-4BCE-8E1D-BA52DFEB06AE}" ShortID="1040151074">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="3.97861877893519"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.97861877893519"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Wood, Impact, Hit, Table, Hard SND4258.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="825483097"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood, Impact, Hit, Table, Hard SND4258" ID="{5F2C2180-E8ED-4BCE-8E1D-BA52DFEB06AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Metal" ID="{C05087DB-A352-4B55-BE45-DFA7F2D7D3AF}" ShortID="982568521">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Metal, Impact, Drum, Thud, Rattle 2 SND7030" ID="{007B179A-EA88-42E1-A1EC-7CA7C352AA88}" ShortID="42514822">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Metal, Impact, Drum, Thud, Rattle 2 SND7030" ID="{F22D97F6-87E4-48C3-9564-576B8F291BB5}" ShortID="35271442">
+													<Language>SFX</Language>
+													<AudioFile>Metal, Impact, Drum, Thud, Rattle 2 SND7030.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Metal, Impact, Drum, Thud, Rattle 2 SND7030" ID="{F22D97F6-87E4-48C3-9564-576B8F291BB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Metal, Impact, Drum, Thud 1 SND7032" ID="{D941412D-2DC8-41D2-9520-79D552A80583}" ShortID="197832534">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Metal, Impact, Drum, Thud 1 SND7032" ID="{335F8887-D476-41F0-8588-6E5D830BD152}" ShortID="911474110">
+													<Language>SFX</Language>
+													<AudioFile>Metal, Impact, Drum, Thud 1 SND7032.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Metal, Impact, Drum, Thud 1 SND7032" ID="{335F8887-D476-41F0-8588-6E5D830BD152}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Metal, Impact, Drum, Thud, Rattle 1 SND7031" ID="{8A4FB610-F108-4740-A249-885114B455E3}" ShortID="181586316">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Metal, Impact, Drum, Thud, Rattle 1 SND7031" ID="{AF2DB58C-4C53-4563-9E57-24A0159144DF}" ShortID="1061293933">
+													<Language>SFX</Language>
+													<AudioFile>Metal, Impact, Drum, Thud, Rattle 1 SND7031.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Metal, Impact, Drum, Thud, Rattle 1 SND7031" ID="{AF2DB58C-4C53-4563-9E57-24A0159144DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Metal, Impact, Drum, Thud 3 SND7033" ID="{87BA7D7E-3812-47B5-8259-1FF4D57C8D5B}" ShortID="420263184">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Metal, Impact, Drum, Thud 3 SND7033" ID="{9AB8EE9C-0F18-4FE0-8A51-EF552C783032}" ShortID="1035041268">
+													<Language>SFX</Language>
+													<AudioFile>Metal, Impact, Drum, Thud 3 SND7033.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Metal, Impact, Drum, Thud 3 SND7033" ID="{9AB8EE9C-0F18-4FE0-8A51-EF552C783032}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Piedra" ID="{0855B977-4AF5-4A57-A5D0-629CB5DDB9DF}" ShortID="155768570">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Impact, Stone, Rock, Hit Floor SND30286" ID="{1E365E3F-93F8-4EC2-BCA9-33BC8833CDD7}" ShortID="789561600">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Impact, Stone, Rock, Hit Floor SND30286" ID="{B105AD9E-CFC1-462A-872B-2714ED9B4B2E}" ShortID="183003567">
+													<Language>SFX</Language>
+													<AudioFile>Impact, Stone, Rock, Hit Floor SND30286.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impact, Stone, Rock, Hit Floor SND30286" ID="{B105AD9E-CFC1-462A-872B-2714ED9B4B2E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Impact, Stone, Rock, Hit Floor SND30286 1" ID="{255BA237-252E-4571-9EC5-6C289D1A6221}" ShortID="591541868">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Impact, Stone, Rock, Hit Floor SND30286 1" ID="{812CF97A-2F4A-4549-AE71-99643211BBB4}" ShortID="237446215">
+													<Language>SFX</Language>
+													<AudioFile>Impact, Stone, Rock, Hit Floor SND30286 1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impact, Stone, Rock, Hit Floor SND30286 1" ID="{812CF97A-2F4A-4549-AE71-99643211BBB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Impact, Stone, Large, Hit Ground 1 SND30291" ID="{77397E70-50FB-4263-96FC-68F626481947}" ShortID="259381938">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Impact, Stone, Large, Hit Ground 1 SND30291" ID="{F6000F6B-717A-4553-91C5-E5CF98803158}" ShortID="39415663">
+													<Language>SFX</Language>
+													<AudioFile>Impact, Stone, Large, Hit Ground 1 SND30291.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impact, Stone, Large, Hit Ground 1 SND30291" ID="{F6000F6B-717A-4553-91C5-E5CF98803158}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Impact, Stone, Large, Hit Ground 5 SND30287" ID="{24263C51-F586-4FC3-92F2-D613319FB49E}" ShortID="536958310">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Impact, Stone, Large, Hit Ground 5 SND30287" ID="{0C85E43A-FC95-41AD-91D3-D27583D4F893}" ShortID="1049911430">
+													<Language>SFX</Language>
+													<AudioFile>Impact, Stone, Large, Hit Ground 5 SND30287.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impact, Stone, Large, Hit Ground 5 SND30287" ID="{0C85E43A-FC95-41AD-91D3-D27583D4F893}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Impact, Stone, Large, Hit Ground 3 SND30289" ID="{B50F28BE-2EED-47B8-923C-C7689DBD6832}" ShortID="1024110427">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Impact, Stone, Large, Hit Ground 3 SND30289" ID="{7059D1AB-B871-4F0C-BA6D-C22B133C87F1}" ShortID="1000140916">
+													<Language>SFX</Language>
+													<AudioFile>Impact, Stone, Large, Hit Ground 3 SND30289.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Impact, Stone, Large, Hit Ground 3 SND30289" ID="{7059D1AB-B871-4F0C-BA6D-C22B133C87F1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Agua" ID="{1F8E13B9-A91C-4CC0-B557-9F433B04D894}" ShortID="542482526">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{54A9921C-CBFD-4FB9-A70B-28FA10E8B1A1}" ShortID="523228481">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{69F5776F-39FD-429D-93C3-43440A1277D5}" ShortID="856744796">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.770615034100474"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.810821035879626"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="515731750"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{69F5776F-39FD-429D-93C3-43440A1277D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_01" ID="{AEB4406F-736E-4773-859B-DD328CCCA049}" ShortID="45824609">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{060E451E-402F-44CD-956B-50674DDD6198}" ShortID="737266220">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.478283266844445"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.527033673321759"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.13514945023148"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{060E451E-402F-44CD-956B-50674DDD6198}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_02" ID="{4336E966-536D-4034-84B5-9E7021A2822C}" ShortID="737600573">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{2029B179-C869-47B3-B107-F5CD15223D80}" ShortID="980963904">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0405410517939815"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.608115776909722"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.01352629484954"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.86488838252315"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{2029B179-C869-47B3-B107-F5CD15223D80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_03" ID="{208CA128-64CA-4D34-93DA-960F9206EDF6}" ShortID="134870019">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{60AEB274-2412-47AD-B910-1E4DFD511F27}" ShortID="605443248">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.151036821108773"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.74334089265047"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.3109156177662"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{60AEB274-2412-47AD-B910-1E4DFD511F27}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_04" ID="{B6D70515-7239-424E-9134-109D89C39517}" ShortID="1025896149">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{4E08000E-6936-4F9A-908D-A2B577ABFB02}" ShortID="515731750">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.05414301215278"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.70279984085648"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="856744796"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Waves, Lake, Small, Bright, Lapping, Close SND8518" ID="{4E08000E-6936-4F9A-908D-A2B577ABFB02}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Patas" ID="{ACA5F24E-C208-4D22-91F0-D6F00205BC0A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Piedra" ID="{0855B977-4AF5-4A57-A5D0-629CB5DDB9DF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Agua" ID="{1F8E13B9-A91C-4CC0-B557-9F433B04D894}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Metal" ID="{C05087DB-A352-4B55-BE45-DFA7F2D7D3AF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Madera" ID="{A55C85DF-8C5D-4C46-942D-CD16D0DE6CC8}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Madera" ID="{6C125956-1ED2-41A6-8B16-82CE226051C7}"/>
+										<ItemList>
+											<ItemRef Name="Madera" ID="{A55C85DF-8C5D-4C46-942D-CD16D0DE6CC8}"/>
+											<ItemRef Name="Patas" ID="{ACA5F24E-C208-4D22-91F0-D6F00205BC0A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Agua" ID="{9851EA9C-088D-44A9-AB73-9133E178DAE2}"/>
+										<ItemList>
+											<ItemRef Name="Patas" ID="{ACA5F24E-C208-4D22-91F0-D6F00205BC0A}"/>
+											<ItemRef Name="Agua" ID="{1F8E13B9-A91C-4CC0-B557-9F433B04D894}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Piedra" ID="{CCF54A9D-3567-4A50-833D-5DC7BD4A9D38}"/>
+										<ItemList>
+											<ItemRef Name="Piedra" ID="{0855B977-4AF5-4A57-A5D0-629CB5DDB9DF}"/>
+											<ItemRef Name="Patas" ID="{ACA5F24E-C208-4D22-91F0-D6F00205BC0A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Metal" ID="{162E23E5-F356-4C11-B7C9-FAA781D7D8C6}"/>
+										<ItemList>
+											<ItemRef Name="Metal" ID="{C05087DB-A352-4B55-BE45-DFA7F2D7D3AF}"/>
+											<ItemRef Name="Patas" ID="{ACA5F24E-C208-4D22-91F0-D6F00205BC0A}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Cae" ID="{AAF79023-4FC7-41BD-8602-52A5ECB09B43}" ShortID="606003667">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Cae" ID="{FFC78E33-A08E-4D58-A058-F15C61471CCF}" ShortID="11353368">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>29</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cae" ID="{82C90C4C-C7FB-445C-9F05-A354566EA2CD}" ShortID="776658349">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Design, Whoosh, Wind, Soft 3 SND11997" ID="{CE52DA2F-5E45-40C4-BD5B-FFBC74CAB1E6}" ShortID="1000148977">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.219612847222222"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.265365523726852"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.68369849537037"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Design, Whoosh, Wind, Soft 3 SND11997.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Design, Whoosh, Wind, Soft 3 SND11997" ID="{CE52DA2F-5E45-40C4-BD5B-FFBC74CAB1E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="cae" ID="{82C90C4C-C7FB-445C-9F05-A354566EA2CD}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<Sound Name="Earthquake, Impact, Crack 04 SND13428" ID="{FA483A9B-D76C-4A45-B1B4-5DEDFC4AF35E}" ShortID="226601462">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Earthquake, Impact, Crack 04 SND13428" ID="{29B012A9-72BD-4B4C-8C10-89A3578CD508}" ShortID="249980797">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.95676294849537"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.95676294849537"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Earthquake, Impact, Crack 04 SND13428.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Earthquake, Impact, Crack 04 SND13428" ID="{29B012A9-72BD-4B4C-8C10-89A3578CD508}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
