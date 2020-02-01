@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>/Users/marcosmontero/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/c:/users/crossover/My Documents/WwiseProjects/Gamejam 1/</ProjectRoot>
+		<SourceFilesRoot>/Users/marcosmontero/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/c:/users/crossover/My Documents/WwiseProjects/Gamejam 1/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/marcosmontero/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Soundbank/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="101017891" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\gamejam_soundbank_1</ObjectPath>
+			<ShortName>gamejam_soundbank_1</ShortName>
+			<Path>gamejam_soundbank_1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1498460211" Name="Aterriza" ObjectPath="\Events\Default Work Unit\Aterriza"/>
+				<Event Id="983016362" Name="Cae" ObjectPath="\Events\Default Work Unit\Cae"/>
+				<Event Id="529726532" Name="End" ObjectPath="\Events\Default Work Unit\End"/>
+				<Event Id="4243306039" Name="Muerte" ObjectPath="\Events\Default Work Unit\Muerte"/>
+				<Event Id="3026462669" Name="Pasos" ObjectPath="\Events\Default Work Unit\Pasos"/>
+				<Event Id="2769925586" Name="Reparar" ObjectPath="\Events\Default Work Unit\Reparar"/>
+				<Event Id="2948438984" Name="Salto" ObjectPath="\Events\Default Work Unit\Salto"/>
+				<Event Id="1474538986" Name="Sentar" ObjectPath="\Events\Default Work Unit\Sentar"/>
+				<Event Id="1281810935" Name="Start" ObjectPath="\Events\Default Work Unit\Start"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="48023276" Language="SFX">
+					<ShortName>Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064.wav</ShortName>
+					<Path>SFX/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_F2146CCB.wem</Path>
+				</File>
+				<File Id="156193618" Language="SFX">
+					<ShortName>Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064.wav</ShortName>
+					<Path>SFX/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_4CDF61BA.wem</Path>
+				</File>
+				<File Id="161527555" Language="SFX">
+					<ShortName>Design, Whoosh, Airy, Wind 3 SND11954.wav</ShortName>
+					<Path>SFX/Design, Whoosh, Airy, Wind 3 SND11954_1912E397.wem</Path>
+				</File>
+				<File Id="186408529" Language="SFX">
+					<ShortName>R15-07-Metal Clangs and Hollow Hits.wav</ShortName>
+					<Path>SFX/R15-07-Metal Clangs and Hollow Hits_1D30A28B.wem</Path>
+				</File>
+				<File Id="199262409" Language="SFX">
+					<ShortName>R15-07-Metal Clangs and Hollow Hits.wav</ShortName>
+					<Path>SFX/R15-07-Metal Clangs and Hollow Hits_3BF9F40F.wem</Path>
+				</File>
+				<File Id="411768660" Language="SFX">
+					<ShortName>R15-07-Metal Clangs and Hollow Hits.wav</ShortName>
+					<Path>SFX/R15-07-Metal Clangs and Hollow Hits_49015071.wem</Path>
+				</File>
+				<File Id="460703670" Language="SFX">
+					<ShortName>Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064.wav</ShortName>
+					<Path>SFX/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_7F4AEAE9.wem</Path>
+				</File>
+				<File Id="527627076" Language="SFX">
+					<ShortName>Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064.wav</ShortName>
+					<Path>SFX/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_3E1D470D.wem</Path>
+				</File>
+				<File Id="632925691" Language="SFX">
+					<ShortName>Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064.wav</ShortName>
+					<Path>SFX/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_CFEADCF3.wem</Path>
+				</File>
+				<File Id="726347692" Language="SFX">
+					<ShortName>R15-07-Metal Clangs and Hollow Hits.wav</ShortName>
+					<Path>SFX/R15-07-Metal Clangs and Hollow Hits_1299D628.wem</Path>
+				</File>
+				<File Id="754914076" Language="SFX">
+					<ShortName>Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064.wav</ShortName>
+					<Path>SFX/Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_85130244.wem</Path>
+				</File>
+				<File Id="927215219" Language="SFX">
+					<ShortName>R15-07-Metal Clangs and Hollow Hits.wav</ShortName>
+					<Path>SFX/R15-07-Metal Clangs and Hollow Hits_1A68519D.wem</Path>
+				</File>
+				<File Id="1045332741" Language="SFX">
+					<ShortName>R15-07-Metal Clangs and Hollow Hits.wav</ShortName>
+					<Path>SFX/R15-07-Metal Clangs and Hollow Hits_6D58284A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

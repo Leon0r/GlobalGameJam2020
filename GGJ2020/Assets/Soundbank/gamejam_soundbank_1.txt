@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	529726532	End			\Default Work Unit\End	
+	983016362	Cae			\Default Work Unit\Cae	
+	1281810935	Start			\Default Work Unit\Start	
+	1474538986	Sentar			\Default Work Unit\Sentar	
+	1498460211	Aterriza			\Default Work Unit\Aterriza	
+	2769925586	Reparar			\Default Work Unit\Reparar	
+	2948438984	Salto			\Default Work Unit\Salto	
+	3026462669	Pasos			\Default Work Unit\Pasos	
+	4243306039	Muerte			\Default Work Unit\Muerte	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3568509653	Suelo			\Default Work Unit\Suelo	
+
+State	ID	Name	State Group			Notes
+	0	None	Suelo			
+	1926317228	Piedra	Suelo			
+	2473969246	Metal	Suelo			
+	3219867671	Agua	Suelo			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	48023276	paso piedra suelo_01	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_F2146CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Piedra\paso piedra suelo_01		19260
+	156193618	paso piedra suelo	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_4CDF61BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Piedra\paso piedra suelo		43000
+	161527555	Caida	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\Design, Whoosh, Airy, Wind 3 SND11954_1912E397.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cae\Caida		145244
+	186408529	pata metal	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\R15-07-Metal Clangs and Hollow Hits_1D30A28B.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Pata\pata metal		23896
+	199262409	pata metal_05	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\R15-07-Metal Clangs and Hollow Hits_3BF9F40F.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Pata\pata metal_05		41218
+	411768660	pata metal_04	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\R15-07-Metal Clangs and Hollow Hits_49015071.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Pata\pata metal_04		41216
+	460703670	paso piedra suelo_02	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_7F4AEAE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Piedra\paso piedra suelo_02		50298
+	527627076	paso piedra suelo_04	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_3E1D470D.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Piedra\paso piedra suelo_04		61268
+	632925691	paso piedra suelo_05	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_CFEADCF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Piedra\paso piedra suelo_05		59432
+	726347692	pata metal_03	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\R15-07-Metal Clangs and Hollow Hits_1299D628.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Pata\pata metal_03		64732
+	754914076	paso piedra suelo_03	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\Footsteps, Stone, Male, Sneakers, Normal Tempo SND4064_85130244.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Piedra\paso piedra suelo_03		29116
+	927215219	pata metal_02	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\R15-07-Metal Clangs and Hollow Hits_1A68519D.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Pata\pata metal_02		58854
+	1045332741	pata metal_01	C:\users\crossover\My Documents\WwiseProjects\Gamejam 1\.cache\Windows\SFX\R15-07-Metal Clangs and Hollow Hits_6D58284A.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\Pata\pata metal_01		52976
+
