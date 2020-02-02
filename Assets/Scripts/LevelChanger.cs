@@ -55,6 +55,7 @@ public class LevelChanger : MonoBehaviour {
 	public void OnFadeComplete()
 	{
 		levelChangerAnimator.SetTrigger("Fade_In");
+        SoundManager.instance.ChangeState(SceneManager.GetActiveScene().buildIndex - 1);
 		SceneManager.LoadScene(levelToLoad);
 	}
 }
