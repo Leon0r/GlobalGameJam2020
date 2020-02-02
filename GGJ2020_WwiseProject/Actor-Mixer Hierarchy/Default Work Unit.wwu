@@ -776,6 +776,864 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="Recompensa" ID="{2692BA62-343A-44F9-8995-25DB3F464847}" ShortID="654531364">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cartoon, Heavenly Choir 3 SND31163" ID="{BA03D59F-8B16-438B-B526-44CA45D7D3DF}" ShortID="674009381">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0462618272569444"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.70507877604167"/>
+								<Property Name="FadeOutShape" Type="int16" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Cartoon, Heavenly Choir 3 SND31163.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cartoon, Heavenly Choir 3 SND31163" ID="{BA03D59F-8B16-438B-B526-44CA45D7D3DF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="Salto" ID="{A5695F3C-70E9-4E10-B0C3-F96E81CBF176}" ShortID="239361406">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Salto" ID="{F58A413A-8FE6-4CC5-B8FE-64383FEC2D1C}" ShortID="236074583">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="salto" ID="{210C1641-06EF-4636-9AB5-9EA214A12663}" ShortID="451668623">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="R15-43-Woman Sobbing" ID="{6CA1BDBF-2928-4AAE-8E2E-533F65E33592}" ShortID="457595770">
+											<Language>SFX</Language>
+											<AudioFile>R15-43-Woman Sobbing.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="R15-43-Woman Sobbing" ID="{6CA1BDBF-2928-4AAE-8E2E-533F65E33592}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="salto_01" ID="{45807C1F-8638-4EBF-859A-CCBE41037CAB}" ShortID="995852528">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="R15-43-Woman Sobbing 1" ID="{26EFE993-E8AF-490D-85DD-624C7F033201}" ShortID="513387108">
+											<Language>SFX</Language>
+											<AudioFile>R15-43-Woman Sobbing 1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="521397422"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="R15-43-Woman Sobbing 1" ID="{26EFE993-E8AF-490D-85DD-624C7F033201}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="salto_02" ID="{D7B56811-4378-4902-87D1-C96235492053}" ShortID="415383013">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="R15-43-Woman Sobbing 4" ID="{2A8145A3-B964-405D-8236-BA1271BFCC0F}" ShortID="854591614">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.182202763310185"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.182202763310185"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>R15-43-Woman Sobbing 4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="R15-43-Woman Sobbing 4" ID="{2A8145A3-B964-405D-8236-BA1271BFCC0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Salto swoosh" ID="{5F55493D-2F44-425A-9AEA-879D526D7DC4}" ShortID="162940476">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Design, Whoosh, Airy, Short 3 SND11903" ID="{D39620EF-7807-4D1A-8883-29B12F4CB7E1}" ShortID="763068496">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Design, Whoosh, Airy, Short 3 SND11903" ID="{9E68A0F4-A8FB-422A-B99B-E8801035AD30}" ShortID="147874688">
+											<Language>SFX</Language>
+											<AudioFile>Design, Whoosh, Airy, Short 3 SND11903.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Design, Whoosh, Airy, Short 3 SND11903" ID="{9E68A0F4-A8FB-422A-B99B-E8801035AD30}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Design, Whoosh, Airy, Short 11 SND11924" ID="{E7CA0D0A-F0B5-4B38-8ED5-92B5171A68FB}" ShortID="920810964">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Design, Whoosh, Airy, Short 11 SND11924" ID="{EA60EE07-8583-4132-9F6F-6390363B8A98}" ShortID="562927995">
+											<Language>SFX</Language>
+											<AudioFile>Design, Whoosh, Airy, Short 11 SND11924.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Design, Whoosh, Airy, Short 11 SND11924" ID="{EA60EE07-8583-4132-9F6F-6390363B8A98}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Design, Whoosh, Low, Short 4 SND11972" ID="{5F48EAE1-5EC5-4BE6-A826-DCE52548BC53}" ShortID="42487563">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Design, Whoosh, Low, Short 4 SND11972" ID="{8F9816BE-16E7-4695-8AC1-F3477AA8304F}" ShortID="1040900571">
+											<Language>SFX</Language>
+											<AudioFile>Design, Whoosh, Low, Short 4 SND11972.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Design, Whoosh, Low, Short 4 SND11972" ID="{8F9816BE-16E7-4695-8AC1-F3477AA8304F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<RandomSequenceContainer Name="Risa" ID="{FE6BB941-2DDA-4DDC-B2D5-0778067F7B5D}" ShortID="355281191">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="risa" ID="{D15DF615-69CE-4DA9-A258-0BBD234C4472}" ShortID="876146129">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Human, Laugh, Female SND3146" ID="{E75CD806-7FE4-4858-AAD3-1BB8B25C9056}" ShortID="76642869">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.250390914351852"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.337683159722222"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Human, Laugh, Female SND3146.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Human, Laugh, Female SND3146" ID="{E75CD806-7FE4-4858-AAD3-1BB8B25C9056}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="risa 2" ID="{E34AEE46-D90A-4906-82E9-2EE6A6D6A82E}" ShortID="705413428">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Human, Laugh, Female SND3146 1" ID="{E4425569-6719-4E97-8A01-812EAF25958D}" ShortID="281893924">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.178877314814815"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.38451041666667"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Human, Laugh, Female SND3146 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Human, Laugh, Female SND3146 1" ID="{E4425569-6719-4E97-8A01-812EAF25958D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="risa 3" ID="{CFDBD90F-4422-45DE-822D-24E2E9B5F1EB}" ShortID="719796213">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Human, Laugh, Female SND3146 2" ID="{793C32A2-CA86-43FE-B7A3-AB4E0255A28C}" ShortID="73703160">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.517084743923611"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.1637001953125"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Human, Laugh, Female SND3146 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Human, Laugh, Female SND3146 2" ID="{793C32A2-CA86-43FE-B7A3-AB4E0255A28C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Frases muerte" ID="{D01BC620-7FAA-447B-A6D8-9CAE4B097B4C}" ShortID="1035958482">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="frase 3" ID="{8F9CC2BC-EA4F-4559-9961-946033E5D839}" ShortID="73208707">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Human, Vocal, Female, Shouting 3 SND3155" ID="{7B206D3B-5544-4419-A49C-3F825D90B1E5}" ShortID="594540433">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.100507523148148"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Human, Vocal, Female, Shouting 3 SND3155.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Human, Vocal, Female, Shouting 3 SND3155" ID="{7B206D3B-5544-4419-A49C-3F825D90B1E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="frase 2" ID="{9BC890A1-A3BD-4050-8CAA-FAEEAB407299}" ShortID="793256240">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Human, Vocal, Female, Shouting 2 SND3156 1" ID="{C6BD4F17-59CA-45FE-8792-F898A3562652}" ShortID="3728319">
+									<Language>SFX</Language>
+									<AudioFile>Human, Vocal, Female, Shouting 2 SND3156 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Human, Vocal, Female, Shouting 2 SND3156 1" ID="{C6BD4F17-59CA-45FE-8792-F898A3562652}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="frase 1" ID="{4EEC6FD6-DCAC-4CF4-969A-AAC180EE0E79}" ShortID="892816931">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Human, Vocal, Female, Shouting 1 SND3157 1" ID="{711513BB-2549-42B8-B1EA-19C7F700BBB0}" ShortID="272693549">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0800434027777778"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0850461154513889"/>
+										<Property Name="FadeOutShape" Type="int16" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.867136863425926"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Human, Vocal, Female, Shouting 1 SND3157 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Human, Vocal, Female, Shouting 1 SND3157 1" ID="{711513BB-2549-42B8-B1EA-19C7F700BBB0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<ActorMixer Name="Plataforma desliza" ID="{C7B24726-52B9-439D-962F-10C344AE5C8E}" ShortID="238048731">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Clock" ID="{175D733B-81F6-4FC1-ADD7-C38BFB60FFA2}" ShortID="821815433">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock, Grandfather, Antique, Old, Ticking, Mechanical Loop 01 SND37267" ID="{BFC6AF77-BB99-4506-9E27-2C42FAB9514A}" ShortID="675396017">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.24350896031237"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Clock, Grandfather, Antique, Old, Ticking, Mechanical Loop 01 SND37267.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock, Grandfather, Antique, Old, Ticking, Mechanical Loop 01 SND37267" ID="{BFC6AF77-BB99-4506-9E27-2C42FAB9514A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Engine" ID="{5094A010-941B-4D91-9FCB-9EE3087E68DB}" ShortID="1011525718">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="engine" ID="{4D925B2E-20AB-4169-B6DD-F5A7CCB55FFE}" ShortID="500258953">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Machinery, CNC Machine, Head Moving, Tonal, Running, Normal SND9532" ID="{82D56939-2A81-4C87-9E3C-9D66F755E540}" ShortID="728449496">
+											<Language>SFX</Language>
+											<AudioFile>Machinery, CNC Machine, Head Moving, Tonal, Running, Normal SND9532.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Machinery, CNC Machine, Head Moving, Tonal, Running, Normal SND9532" ID="{82D56939-2A81-4C87-9E3C-9D66F755E540}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="engine" ID="{4D925B2E-20AB-4169-B6DD-F5A7CCB55FFE}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<RandomSequenceContainer Name="plataforma gira" ID="{DF3482F6-165B-4413-A85B-CCD4E555BC3C}" ShortID="223348479">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>43</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1090</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="plataforma gira" ID="{1066DD25-BE44-4F71-89BC-FF916AFD3F6A}" ShortID="101459209">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Machinery, Wood Chipping Machine, Fast Speed To Slowing Down SND9510" ID="{637EDFF4-A8A1-4148-A29C-585E93670B41}" ShortID="860269141">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.464860026041667"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.71536792896412"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Machinery, Wood Chipping Machine, Fast Speed To Slowing Down SND9510.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Machinery, Wood Chipping Machine, Fast Speed To Slowing Down SND9510" ID="{637EDFF4-A8A1-4148-A29C-585E93670B41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="plataforma gira" ID="{1066DD25-BE44-4F71-89BC-FF916AFD3F6A}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Reparar" ID="{CD512FDA-133D-4F1A-B6C4-DE0DCA6D8FC0}" ShortID="643251282">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="rep 1r" ID="{C8BF2E2C-549F-47C9-B6D7-0F9279B6208A}" ShortID="178126580">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glass Shards, Small, Drop Into Container, Break 1 SND28497 1" ID="{DD7B0DFE-DAAB-40C1-A70A-A438DABCBE69}" ShortID="1014775817">
+									<Language>SFX</Language>
+									<AudioFile>Glass Shards, Small, Drop Into Container, Break 1 SND28497 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glass Shards, Small, Drop Into Container, Break 1 SND28497 1" ID="{DD7B0DFE-DAAB-40C1-A70A-A438DABCBE69}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rep 1" ID="{11138284-6286-4C2F-BE35-377906186095}" ShortID="18346244">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glass Shards, Small, Drop Into Container, Break 1 SND28497" ID="{7F328291-82A0-40C1-9950-A9EA8EC1B0D3}" ShortID="161500563">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Glass Shards, Small, Drop Into Container, Break 1 SND28497.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glass Shards, Small, Drop Into Container, Break 1 SND28497" ID="{7F328291-82A0-40C1-9950-A9EA8EC1B0D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rep 3" ID="{BD4098CA-4353-4B18-9B6B-C5B8C8914BAE}" ShortID="23419216">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glass Shards, Small, Drop Into Container, Break 3 SND28495" ID="{C699C8C1-8E07-45B6-84D9-63DF73BDEDAB}" ShortID="1000619534">
+									<Language>SFX</Language>
+									<AudioFile>Glass Shards, Small, Drop Into Container, Break 3 SND28495.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="130983813"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glass Shards, Small, Drop Into Container, Break 3 SND28495" ID="{C699C8C1-8E07-45B6-84D9-63DF73BDEDAB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rep 2" ID="{C8125431-7A08-4E7B-91D3-7322777C4B72}" ShortID="885962863">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glass Shards, Small, Drop Into Container, Break 2 SND28496" ID="{F9F4D076-A86A-45DC-ACF3-AA2D567EC826}" ShortID="702177848">
+									<Language>SFX</Language>
+									<AudioFile>Glass Shards, Small, Drop Into Container, Break 2 SND28496.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1013928689"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glass Shards, Small, Drop Into Container, Break 2 SND28496" ID="{F9F4D076-A86A-45DC-ACF3-AA2D567EC826}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rep 2r" ID="{4D69819F-C547-41F3-8145-3F3DBEE9AC47}" ShortID="1061750121">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glass Shards, Small, Drop Into Container, Break 2 SND28496 2" ID="{539857F6-B7AF-430E-ABDB-A8C517255968}" ShortID="383512236">
+									<Language>SFX</Language>
+									<AudioFile>Glass Shards, Small, Drop Into Container, Break 2 SND28496 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glass Shards, Small, Drop Into Container, Break 2 SND28496 2" ID="{539857F6-B7AF-430E-ABDB-A8C517255968}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rep 3r" ID="{F4467FBB-0747-4CE7-99D8-4F04E95BB23E}" ShortID="992797154">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glass Shards, Small, Drop Into Container, Break 3 SND28495 1" ID="{612F628B-EFA2-465E-A98C-D791DD0F90A5}" ShortID="355190226">
+									<Language>SFX</Language>
+									<AudioFile>Glass Shards, Small, Drop Into Container, Break 3 SND28495 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glass Shards, Small, Drop Into Container, Break 3 SND28495 1" ID="{612F628B-EFA2-465E-A98C-D791DD0F90A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="cascada" ID="{0D7BE282-9DD8-4D8C-A955-6313492A079E}" ShortID="672281423">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{48FBA3DA-56A9-46FD-AF4F-1B01D84F2EA7}" ShortID="991868299">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{1D1B1279-2AA4-43BE-B981-44357B499929}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Weather, Wind, Forest, Trees, Birds SND7736" ID="{2C2C8315-5D72-4442-AAB5-16C07C63D37E}" ShortID="625048673">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>72</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>21</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weather, Wind, Forest, Trees, Birds SND7736" ID="{65109E56-E57B-4BA4-A853-A1575FE46739}" ShortID="498618306">
+									<Language>SFX</Language>
+									<AudioFile>Weather, Wind, Forest, Trees, Birds SND7736.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Weather, Wind, Forest, Trees, Birds SND7736" ID="{65109E56-E57B-4BA4-A853-A1575FE46739}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Weather, Wind, Forest, Trees, Birds SND7736" ID="{2C2C8315-5D72-4442-AAB5-16C07C63D37E}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="start" ID="{4C66ADA1-99D5-4A77-BC8A-5DE58428F479}" ShortID="155051559">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Key, Mortice, Set Down On Glass Table 02 SND38368" ID="{972F3292-AA25-49EA-A0A0-C938262F0757}" ShortID="257699881">
+							<Language>SFX</Language>
+							<AudioFile>Key, Mortice, Set Down On Glass Table 02 SND38368.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Key, Mortice, Set Down On Glass Table 02 SND38368" ID="{972F3292-AA25-49EA-A0A0-C938262F0757}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="ambient" ID="{5ADBBF43-842C-4E64-B91E-7257C0A1C1BE}" ShortID="95536366">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{6F61E68A-8FDA-4718-9594-8235EFC0E9A3}" ShortID="601709028">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{57BC2188-DF1C-4832-9B60-DDD664705CD0}" ShortID="607289076">
+									<Language>SFX</Language>
+									<AudioFile>Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{57BC2188-DF1C-4832-9B60-DDD664705CD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="gas" ID="{52246B5B-CB67-471C-957D-F9BC17E85DFA}" ShortID="20835149">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{2F29E243-F5C0-4329-8771-27FC51F7ACE7}" ShortID="538277782">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{54D26269-A237-4032-84A5-D42F2D9B8B19}" ShortID="869283611">
+									<Language>SFX</Language>
+									<AudioFile>Weather, Wind, Interior, Cold, Howling, Rattle SND1950.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{54D26269-A237-4032-84A5-D42F2D9B8B19}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{2F29E243-F5C0-4329-8771-27FC51F7ACE7}"/>
+					</Playlist>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

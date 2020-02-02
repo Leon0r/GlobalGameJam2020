@@ -6,12 +6,8 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{75BEB284-DC67-4615-8125-207EDE983D62}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Pasos" ID="{663E4045-1EDB-4088-A804-ABC1F9E99460}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
+							<ObjectRef Name="MusicOn" ID="{74F2610A-7844-410B-9A05-684F4471F775}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
 							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Cae" ID="{75B3B938-3298-433F-9144-572CEE24DB8D}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
-							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Aterriza" ID="{157BDB61-B798-4A30-A537-D7C040515599}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
@@ -27,6 +23,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Agua" ID="{9851EA9C-088D-44A9-AB73-9133E178DAE2}"/>
 						<CurrentSwitchRef Name="Pause" ID="{175377FB-B3F9-4876-91D2-E8FCA0FD5F8D}"/>
+						<CurrentSwitchRef Name="Arm" ID="{8D8ACAB1-8288-47D1-8E98-26250A8A58E0}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
