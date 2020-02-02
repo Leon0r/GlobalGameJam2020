@@ -34,6 +34,8 @@ public class Platform : MonoBehaviour
 
     [Header("Repairable")]
     public bool isRepairable;
+    public GameObject broken;
+    public GameObject complete;
 
     [Header("Vertical")]
     public bool movesVert;
@@ -66,6 +68,9 @@ public class Platform : MonoBehaviour
         insideViewPort = false;
         posOr = transform.position;
         rotOr = transform.rotation;
+
+        broken.SetActive(false);
+        complete.SetActive(true);
 
         // Init rotation
         if (rotates)
@@ -106,6 +111,9 @@ public class Platform : MonoBehaviour
 
             // Deactivate component
             activation.enabled = false;
+
+            broken.SetActive(true);
+            complete.SetActive(false);
         }
         // Si no es reparable, significa que va a estar activada siempre, así que establecemos los diferentes movimientos
         else if (movesHorz)
@@ -165,6 +173,10 @@ public class Platform : MonoBehaviour
         // Reset
         transform.position = posOr;
         transform.rotation = rotOr;
+
+        // Sprites
+        complete.SetActive(false);
+        broken.SetActive(true);
     }
 
     public void UpdateState()
@@ -204,6 +216,9 @@ public class Platform : MonoBehaviour
         {
             DiagMove();
         }
+
+        complete.SetActive(true);
+        broken.SetActive(false);
     }
 
 
