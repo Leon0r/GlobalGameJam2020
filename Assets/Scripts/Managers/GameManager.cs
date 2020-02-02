@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
 
     private SoundManager soundManager;
+    private int keysUnlocked = 0;
 
     //Awake is always called before any Start functions
     void Awake()
@@ -28,15 +29,14 @@ public class GameManager : MonoBehaviour
         //Sets this to not be destroyed when reloading scene
         DontDestroyOnLoad(gameObject);
     }
-        // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
 
-    // Update is called once per frame
-    void Update()
+    public void SetKeysUnlocked (int numKeys)
     {
-        
+        if (instance.keysUnlocked != numKeys)
+        {
+            instance.keysUnlocked = numKeys;
+
+        }
+
     }
 }

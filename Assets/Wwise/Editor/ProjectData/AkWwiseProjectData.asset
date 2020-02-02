@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7c5bb30827a8a04193c9375504be3b16
     GuidInternal: 
-    m_lastTime: -8586209683433892119
+    m_lastTime: -8586209700594775808
     List:
     - name: Main
       guid: c847374daa224f48a8fcfe81ff7d0c47
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: cc371c76f657324596493641c75fa459
     GuidInternal: 
-    m_lastTime: -8586209683438439939
+    m_lastTime: -8586209700874775808
     List:
     - name: Aterriza
       guid: 61db7b1598b7304aa537d7c040515599
@@ -215,8 +215,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VaporOff
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.543167
+      minDuration: 2.340396
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -236,7 +236,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7b7156aa48a3e74c863d97ae4decef6a
     GuidInternal: 
-    m_lastTime: -8586209683433732546
+    m_lastTime: -8586209709494775808
     List:
     - name: Menu
       guid: b700dc372f834648bb7ac7dcfa90094c
@@ -352,12 +352,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /El juego
-  - /El juego/Events
-  - /El juego/Events/Default Work Unit
   - /El juego/SoundBanks
   - /El juego/SoundBanks/Default Work Unit
-  - /El juego/Switches
-  - /El juego/Switches/Default Work Unit
-  - /El juego/Switches/Default Work Unit/Pasos
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -16,7 +16,6 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
 
     //Stuff that are not movement based
-    [SerializeField] private Animator animator;
 
     private AkEvent AKEventDinamico;
 
@@ -65,10 +64,10 @@ public class CharacterController2D : MonoBehaviour
             if (colliders[i].gameObject != gameObject)
             {
                 m_Grounded = true;
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("JumpAir"))
-                {
-                    animator.Play("JumpEnd");
-                }
+                //if (animator.GetCurrentAnimatorStateInfo(0).IsName("JumpAir"))
+                //{
+                //    animator.Play("JumpEnd");
+                //}
                 if (!wasGrounded)
                     OnLandEvent.Invoke();
             }
@@ -80,7 +79,14 @@ public class CharacterController2D : MonoBehaviour
         }
     }
 
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Key")
+        {
+            OnActionTriggerAudioEvent("End");
+            GameManager.instance.SetKeysUnlocked(1);
+        }
+    }
     public void Move(float move, bool crouch, bool jump)
     {
         // If crouching, check to see if the character can stand up
@@ -131,11 +137,6 @@ public class CharacterController2D : MonoBehaviour
             // And then smoothing it out and applying it to the character
             m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
-            if (m_Rigidbody2D.velocity != Vector2.zero && animator.GetCurrentAnimatorStateInfo(0).IsName("IdleUp"))
-            {
-                animator.Play("Walking");
-            }
-
             // If the input is moving the player right and the player is facing left...
             if (move > 0 && !m_FacingRight)
             {
@@ -155,7 +156,7 @@ public class CharacterController2D : MonoBehaviour
             // Add a vertical force to the player.
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-            animator.Play("JumpStart");
+            
            
         }
     }
