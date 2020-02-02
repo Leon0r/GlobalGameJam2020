@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Dead()
     {
+        AkSoundEngine.PostEvent("Muerte", gameObject);
         transform.position = initPos;
     }
 
