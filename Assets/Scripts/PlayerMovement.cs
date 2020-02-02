@@ -28,19 +28,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void Dead()
     {
+        AkSoundEngine.PostEvent("Muerte", gameObject);
         transform.position = initPos;
     }
 
     //Get the input from the player
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        horizontalMove = Input.GetAxisRaw("HorizontalMove") * runSpeed;
 
-        if(horizontalMove == 0)
-        {
+        if(horizontalMove == 0) {
             timeSitting -= Time.deltaTime;
-            if(timeSitting <= 0)
-            {
+            if(timeSitting <= 0) {
                 timeSitting = 2f;
                 animator.SetBool("Sitting", true);
                 //Y aqui se hace lo del SoundManager

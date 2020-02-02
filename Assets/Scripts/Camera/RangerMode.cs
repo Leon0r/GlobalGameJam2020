@@ -6,13 +6,11 @@ public class RangerMode : MonoBehaviour
 {
     private bool rangerMode = false;
 
-    public void SetRangerMode(bool state)
-    {
+    public void SetRangerMode(bool state) {
         rangerMode = state;
     }
 
-    public bool GetRangerMode()
-    {
+    public bool GetRangerMode() {
         return rangerMode;
     }
 }

@@ -8,8 +8,8 @@ public class SoundManager : MonoBehaviour
     public enum SoundParameters { test}
     public enum SoundEvent { test }
 
-    public enum SoundState { Menu, Fondo, Arm, Bass, Mel}
-    private string [] stateNames = { "Menu", "Fondo", "Arm", "Bass", "Mel" };
+    public enum SoundState {Fondo, Arm, Mel}
+    private string [] stateNames = { "Fondo", "Arm", "Mel" };
     private int currentState = 1;
 
     public static SoundManager instance = null;                //Static instance of GameManager which allows it to be accessed by any other script.
@@ -50,12 +50,22 @@ public class SoundManager : MonoBehaviour
         AkSoundEngine.SetRTPCValue(nombreParametro.ToString(), valor);
     }
 
-    public void ChangeState (SoundState state)
+    public void ChangeState (int state)
     {
-        if(currentState != (int)state)
+        if(currentState != state)
         {
-            currentState = (int)state;
+            currentState = Mathf.Clamp(state, 0, 2);
             AkSoundEngine.SetSwitch("Music",stateNames[currentState], gameObject);
         }
+    }
+
+    public void Sentarse()
+    {
+        AkSoundEngine.SetSwitch("Music", stateNames[Mathf.Clamp(currentState+1, 0,  2)], gameObject);
+    }
+
+    public void Levantarse()
+    {
+        AkSoundEngine.SetSwitch("Music", stateNames[currentState], gameObject);
     }
 }

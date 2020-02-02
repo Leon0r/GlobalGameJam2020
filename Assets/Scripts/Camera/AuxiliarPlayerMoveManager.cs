@@ -21,8 +21,8 @@ public class AuxiliarPlayerMoveManager : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        movingX = (Input.GetAxisRaw("Horizontal") != 0);
-        movingY = (Input.GetAxisRaw("Vertical") != 0);
+        movingX = (Input.GetAxisRaw("HorizontalCamera") != 0);
+        movingY = (Input.GetAxisRaw("VerticalCamera") != 0);
         if (!movingX && !movingY) {
             Camera.main.GetComponent<RangerMode>().SetRangerMode(false);
             returnHome.Move();
