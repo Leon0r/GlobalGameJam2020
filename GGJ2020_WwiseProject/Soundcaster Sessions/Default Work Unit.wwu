@@ -10,6 +10,14 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Vapor" ID="{94AABE11-72CD-4943-BD94-B895C493ABB0}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="VaporOff" ID="{AF3D4187-A65A-4D35-A5D8-74DBBB31F5C8}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Aterriza" ID="{157BDB61-B798-4A30-A537-D7C040515599}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -23,7 +31,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Agua" ID="{9851EA9C-088D-44A9-AB73-9133E178DAE2}"/>
 						<CurrentSwitchRef Name="Pause" ID="{175377FB-B3F9-4876-91D2-E8FCA0FD5F8D}"/>
-						<CurrentSwitchRef Name="Arm" ID="{8D8ACAB1-8288-47D1-8E98-26250A8A58E0}"/>
+						<CurrentSwitchRef Name="Mel" ID="{55D7C495-04E9-4617-B3D6-982B4B13E445}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

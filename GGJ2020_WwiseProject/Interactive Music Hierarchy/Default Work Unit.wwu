@@ -314,7 +314,6 @@
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
@@ -749,6 +748,80 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
+						<MusicSegment Name="Menu" ID="{7EBA1E26-1C70-4D51-BD45-061D5A8764C1}" ShortID="991967985">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="46601.9501133787"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>55</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>43</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Fondo" ID="{474632A2-6EA7-4876-9E86-F454A6A9D5A4}" ShortID="526632977">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo" ID="{25531716-863C-4E88-B31B-9EBF648F26B5}" ShortID="938372439">
+											<Language>SFX</Language>
+											<AudioFile>Fondo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AFBE445C-B66A-46D8-AF3F-CC1FF8B2E8F7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C0E568A4-B52E-4598-A7E4-56CEB86A0CE9}">
+											<ClipList>
+												<MusicClip Name="Fondo" ID="{B733056C-0F41-4DA1-B342-1EDC944C490A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo" ID="{25531716-863C-4E88-B31B-9EBF648F26B5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{1046E9EE-6B62-4741-B909-D4C897DD80B8}"/>
+								<MusicCue Name="Exit Cue" ID="{4D818609-8DDC-4B77-AC9C-835C76186C7E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{54750360-06F3-4E6E-9ABD-99FF23E7B384}">
@@ -805,7 +878,7 @@
 								<PathElementRef Name="Mel" ID="{55D7C495-04E9-4617-B3D6-982B4B13E445}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Fondo 6-Mel" ID="{BF1D81A4-EBB0-4AF3-AFBC-9D719C250A98}" WorkUnitID="{F9F189BA-0B4B-41D9-897D-291A708E97FA}" Platform="Linked"/>
+								<AudioNodeRef Name="Menu" ID="{7EBA1E26-1C70-4D51-BD45-061D5A8764C1}" WorkUnitID="{F9F189BA-0B4B-41D9-897D-291A708E97FA}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

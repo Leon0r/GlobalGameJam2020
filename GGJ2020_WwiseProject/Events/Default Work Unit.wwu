@@ -181,6 +181,55 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{614454DE-A7FD-4BE8-AD38-E7B497E16373}" ShortID="49207796">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vapor hit" ID="{45A0E962-C054-4619-B76E-6DFEA9F624B7}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VaporOff" ID="{AF3D4187-A65A-4D35-A5D8-74DBBB31F5C8}">
+					<ChildrenList>
+						<Action Name="" ID="{D692C7C1-006F-4433-838F-4C152EFAD433}" ShortID="820058731">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gas" ID="{52246B5B-CB67-471C-957D-F9BC17E85DFA}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CFE4AE29-B4DF-4FED-A0B7-8E4FA704E472}" ShortID="84807604">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VaporOff" ID="{E641FA26-04CE-484B-909A-948B8990C559}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3F0DFFCF-F9ED-429C-90B5-3B7F53E4905B}" ShortID="655707772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VaporOff_01" ID="{2CD6B26C-56FF-42E9-88C7-BAED7C0FF589}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cascada" ID="{87BE6F9E-509C-45B6-B9B4-CA04391701EB}">
+					<ChildrenList>
+						<Action Name="" ID="{E522D6E4-D292-4C4C-9304-FB24C26E6417}" ShortID="575419956">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cascada" ID="{0D7BE282-9DD8-4D8C-A955-6313492A079E}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

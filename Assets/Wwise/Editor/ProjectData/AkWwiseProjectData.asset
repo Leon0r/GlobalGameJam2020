@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7c5bb30827a8a04193c9375504be3b16
     GuidInternal: 
-    m_lastTime: -8586210227072825916
+    m_lastTime: -8586210109454775808
     List:
     - name: Main
       guid: c847374daa224f48a8fcfe81ff7d0c47
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: cc371c76f657324596493641c75fa459
     GuidInternal: 
-    m_lastTime: -8586210227077046157
+    m_lastTime: -8586210053914775808
     List:
     - name: Aterriza
       guid: 61db7b1598b7304aa537d7c040515599
@@ -59,8 +59,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Aterriza
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.956763
+      minDuration: 0.956763
     - name: Cae
       guid: 38b9b37598323f439144572cee24db8d
       id: 983016362
@@ -83,20 +83,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\End
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Gases
-      guid: cb3ee08d19f518428bf9e16a030e8fcf
-      id: 2907068388
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Gases
-        ObjectType: 3
-      Path: Default Work Unit\Gases
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.560667
+      minDuration: 1.903344
     - name: Muerte
       guid: d170c7ce19fb224586f7c488cf1ac7dd
       id: 4243306039
@@ -106,6 +94,18 @@ MonoBehaviour:
       - ElementName: Muerte
         ObjectType: 3
       Path: Default Work Unit\Muerte
+      maxAttenuation: 0
+      maxDuration: 2.532687
+      minDuration: 0.867137
+    - name: MusicOn
+      guid: 0a61f27444780b419a05684f4471f775
+      id: 3998479257
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicOn
+        ObjectType: 3
+      Path: Default Work Unit\MusicOn
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -119,6 +119,30 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Pasos
       maxAttenuation: 0
+      maxDuration: 1.629497
+      minDuration: 0.200635
+    - name: Plataforma_desliza
+      guid: e51d2310a9b9ce4fae9bbb4befbf81d8
+      id: 1260031541
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Plataforma_desliza
+        ObjectType: 3
+      Path: Default Work Unit\Plataforma_desliza
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Plataforma_gira
+      guid: 2d7e3bab2829ac4bb1dc813f6b72e420
+      id: 3990532890
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Plataforma_gira
+        ObjectType: 3
+      Path: Default Work Unit\Plataforma_gira
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Reparar
@@ -131,8 +155,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Reparar
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.370802
+      minDuration: 1.846208
     - name: Salto
       guid: d56823b02b43724bba013688d5fa125c
       id: 2948438984
@@ -143,8 +167,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Salto
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.082229
+      minDuration: 0.547115
     - name: Start
       guid: cda929029f9c6b44b0a8fe3237e20a78
       id: 1281810935
@@ -154,6 +178,18 @@ MonoBehaviour:
       - ElementName: Start
         ObjectType: 3
       Path: Default Work Unit\Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Vapor
+      guid: 11beaa94cd724349bd94b895c493abb0
+      id: 518281709
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Vapor
+        ObjectType: 3
+      Path: Default Work Unit\Vapor
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -176,7 +212,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7b7156aa48a3e74c863d97ae4decef6a
     GuidInternal: 
-    m_lastTime: -8586210227072355889
+    m_lastTime: -8586210134474775808
     List:
     - name: Menu
       guid: b700dc372f834648bb7ac7dcfa90094c
@@ -199,6 +235,43 @@ MonoBehaviour:
         id: 1256202815
         PathAndIcons:
         - ElementName: Play
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music
+      guid: 16e6ee37225c3e4c81c46ee31433332d
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 11
+      Path: Default Work Unit\Music
+      values:
+      - name: Arm
+        guid: b1ca8a8d8882d1478e9826250a8a58e0
+        id: 865867157
+        PathAndIcons:
+        - ElementName: Arm
+          ObjectType: 10
+      - name: Bass
+        guid: f5ff0b1ae54ce847b924a12dda77f5ae
+        id: 1291433344
+        PathAndIcons:
+        - ElementName: Bass
+          ObjectType: 10
+      - name: Fondo
+        guid: d054e3d033264842a912ded5a9b9fbde
+        id: 298184921
+        PathAndIcons:
+        - ElementName: Fondo
+          ObjectType: 10
+      - name: Mel
+        guid: 95c4d755e9041746b3d6982b4b13e445
+        id: 981339013
+        PathAndIcons:
+        - ElementName: Mel
           ObjectType: 10
       ValueGuids: []
       ValueIcons: []
