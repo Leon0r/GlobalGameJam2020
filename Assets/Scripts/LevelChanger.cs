@@ -45,7 +45,8 @@ public class LevelChanger : MonoBehaviour {
 
 	public void FadeToNextLevel()
 	{
-		FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
+        AkSoundEngine.PostEvent("Start", gameObject);
+        FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
 	/// <summary>
