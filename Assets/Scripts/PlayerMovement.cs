@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
-
+    Rigidbody2D rb;
     Vector3 initPos;
 
     //Animator
@@ -21,8 +21,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         initPos = transform.position;
         characterController = GetComponent<CharacterController2D>();
+    }
+
+    public void Dead()
+    {
+        transform.position = initPos;
     }
 
     //Get the input from the player
@@ -78,5 +84,9 @@ public class PlayerMovement : MonoBehaviour
     {
         characterController.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+    }
+
+    public Rigidbody2D GetRigidBody() {
+        return rb;
     }
 }
