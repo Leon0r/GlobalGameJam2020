@@ -6915,17 +6915,17 @@ PrefabInstance:
     - target: {fileID: 3343515077163465421, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465421, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 4.37
+      value: 5.5299997
       objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465421, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 7.6699996
+      value: 7.95
       objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465396, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
@@ -7989,10 +7989,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 451556616}
     m_Modifications:
-    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
-      propertyPath: m_Name
-      value: LevelChanger
-      objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131
@@ -8036,6 +8032,10 @@ PrefabInstance:
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
+      propertyPath: m_Name
+      value: LevelChanger
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114718032711177914, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
@@ -9331,10 +9331,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
-      propertyPath: m_Name
-      value: LevelChanger
-      objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 123
@@ -9365,7 +9361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9378,6 +9374,10 @@ PrefabInstance:
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
+      propertyPath: m_Name
+      value: LevelChanger
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114718032711177914, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
