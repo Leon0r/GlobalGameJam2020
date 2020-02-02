@@ -34,13 +34,11 @@ public class PlayerMovement : MonoBehaviour
     //Get the input from the player
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        horizontalMove = Input.GetAxisRaw("HorizontalMove") * runSpeed;
 
-        if(horizontalMove == 0)
-        {
+        if(horizontalMove == 0) {
             timeSitting -= Time.deltaTime;
-            if(timeSitting <= 0)
-            {
+            if(timeSitting <= 0) {
                 timeSitting = 2f;
                 animator.SetBool("Sitting", true);
             }
