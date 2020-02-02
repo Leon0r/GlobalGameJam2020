@@ -10,7 +10,7 @@ public class DeadZone : MonoBehaviour
     {
         if(other.gameObject.GetComponent<PlayerMovement>() != null)
         {
-            //other.gameObject.GetComponent<PlayerMovement>().Dead();
+            other.gameObject.GetComponent<PlayerMovement>().Dead();
             levelManager.ResetPlatforms();
         }
     }
