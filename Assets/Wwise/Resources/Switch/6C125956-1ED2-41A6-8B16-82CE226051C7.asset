@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121d6a9acd8df13438f5327e24894bb0, type: 3}
+  m_Name: 6C125956-1ED2-41A6-8B16-82CE226051C7
+  m_EditorClassIdentifier: 
+  objectName: Madera
+  id: 2306462273
+  guid: 6C125956-1ED2-41A6-8B16-82CE226051C7
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 31d757b49d4ebec4f97acc08ccfcfe1e,
+    type: 2}

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
@@ -6,17 +8,26 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
     [Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
     [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
+    [Range(0, .3f)] [SerializeField] private float m_time = .05f;               // Time in which we consider you are falling
     [SerializeField] private bool m_AirControl = false;                         // Whether or not a player can steer while jumping;
     [SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character
     [SerializeField] private Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.
     [SerializeField] private Transform m_CeilingCheck;                          // A position marking where to check for ceilings
     [SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
 
+    //Stuff that are not movement based
+    [SerializeField] private Animator animator;
+
+    private AkEvent AKEventDinamico;
+
     const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
     const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
     private Rigidbody2D m_Rigidbody2D;
-    private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+
+    private float timeFalling = 0f;
+    private bool m_Falling = false;          //Is the player falling?
+    private bool m_FacingRight = true;      // For determining which way the player is currently facing.
     private Vector3 m_Velocity = Vector3.zero;
 
     [Header("Events")]
@@ -54,9 +65,18 @@ public class CharacterController2D : MonoBehaviour
             if (colliders[i].gameObject != gameObject)
             {
                 m_Grounded = true;
+                if (animator.GetCurrentAnimatorStateInfo(0).IsName("JumpAir"))
+                {
+                    animator.Play("JumpEnd");
+                }
                 if (!wasGrounded)
                     OnLandEvent.Invoke();
             }
+        }
+
+        if (!m_Grounded)
+        {
+            //Sumo un contador?
         }
     }
 
@@ -111,6 +131,11 @@ public class CharacterController2D : MonoBehaviour
             // And then smoothing it out and applying it to the character
             m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
+            if (m_Rigidbody2D.velocity != Vector2.zero && animator.GetCurrentAnimatorStateInfo(0).IsName("IdleUp"))
+            {
+                animator.Play("Walking");
+            }
+
             // If the input is moving the player right and the player is facing left...
             if (move > 0 && !m_FacingRight)
             {
@@ -130,6 +155,8 @@ public class CharacterController2D : MonoBehaviour
             // Add a vertical force to the player.
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            animator.Play("JumpStart");
+           
         }
     }
 
@@ -140,5 +167,18 @@ public class CharacterController2D : MonoBehaviour
         m_FacingRight = !m_FacingRight;
 
         transform.Rotate(0f, 180f, 0f);
+    }
+
+    public void OnStepDown()
+    {
+        StartCoroutine("ChangeTrigger");
+    }
+
+    IEnumerator ChangeTrigger()
+    {
+        m_GroundCheck.gameObject.SetActive(false);
+        yield return new WaitForSeconds(0.1f);
+        m_GroundCheck.gameObject.SetActive(true);
+
     }
 }
