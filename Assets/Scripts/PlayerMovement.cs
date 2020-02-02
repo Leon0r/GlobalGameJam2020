@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         characterController = GetComponent<CharacterController2D>();
     }
 
-    private void Dead()
+    public void Dead()
     {
         transform.position = initPos;
     }
