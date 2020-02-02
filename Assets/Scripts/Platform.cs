@@ -138,6 +138,16 @@ public class Platform : MonoBehaviour
         }
     }
 
+    public void ResetPlatform()
+    {
+        if (isRepairable)
+        {
+            activation.enabled = false; // reseteamos la plataforma si estaba reparada y era reparable. En español, sí
+        }
+        transform.position = posOr;
+        transform.rotation = rotOr;
+    }
+
     /////////////////////////// Destruction and Repairing ////////////////////////////////
 
     void Destroy()

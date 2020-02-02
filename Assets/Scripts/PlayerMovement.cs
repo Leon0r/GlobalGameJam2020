@@ -11,8 +11,11 @@ public class PlayerMovement : MonoBehaviour {
     bool jump = false;
     bool crouch = false;
 
+    Vector3 initPos;
+
     private void Start()
     {
+        initPos = transform.position;
         characterController = GetComponent<CharacterController2D>();
     }
 
@@ -40,4 +43,13 @@ public class PlayerMovement : MonoBehaviour {
         characterController.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
 	}
+
+    /// <summary>
+    /// Reset player's position when hitting a deadzone. Basically, a respawn.
+    /// </summary>
+    public void Dead()
+    {
+        // Later we should add lives and a live-counter somewhere
+        transform.position = initPos;
+    }
 }
