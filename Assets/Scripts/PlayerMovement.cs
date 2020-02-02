@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        else if (animator.GetBool("Sitting") && horizontalMove == 0)
+        else if (animator.GetBool("Sitting"))
         {
             animator.SetBool("Sitting", false);
         }
@@ -60,6 +60,8 @@ public class PlayerMovement : MonoBehaviour
         {
             jump = true;
             animator.SetBool("IsJumping", true);
+            animator.SetBool("Sitting", false);
+
         }
 
         if (Input.GetButtonDown("Crouch"))
