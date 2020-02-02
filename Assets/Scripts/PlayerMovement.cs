@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            animator.SetBool("IsJumping", true);
+            animator.SetTrigger("IsJumping");
         }
 
         if (Input.GetButtonDown("Crouch"))
@@ -72,11 +72,7 @@ public class PlayerMovement : MonoBehaviour
     //Cuando el personaje toca el suelo
     public void OnLanding()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("JumpAir") || animator.GetCurrentAnimatorStateInfo(0).IsName("JumpAir"))
-        {
-            animator.Play("JumpEnd");
-        }
-        animator.SetBool("IsJumping", false);
+        animator.Play("JumpEnd");
     }
 
     //Move the character 
