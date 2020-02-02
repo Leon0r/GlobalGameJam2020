@@ -111,6 +111,9 @@ public class Platform : MonoBehaviour
 
             // Deactivate component
             activation.enabled = false;
+
+            broken.SetActive(true);
+            complete.SetActive(false);
         }
         // Si no es reparable, significa que va a estar activada siempre, así que establecemos los diferentes movimientos
         else if (movesHorz)
