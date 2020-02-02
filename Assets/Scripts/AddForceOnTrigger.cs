@@ -10,6 +10,7 @@ public class AddForceOnTrigger : MonoBehaviour
         PlayerMovement pm = other.gameObject.GetComponent<PlayerMovement>();
         if ( pm != null)
         {
+            AkSoundEngine.PostEvent("Vapor", gameObject);
             other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, force), ForceMode2D.Impulse);
         }
     }

@@ -17,6 +17,15 @@
 						<Switch Name="Play" ID="{D7AA93D6-4F38-4F37-9711-352576BEEB33}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Music" ID="{37EEE616-5C22-4C3E-81C4-6EE31433332D}">
+					<ChildrenList>
+						<Switch Name="Fondo" ID="{D0E354D0-2633-4248-A912-DED5A9B9FBDE}"/>
+						<Switch Name="Arm" ID="{8D8ACAB1-8288-47D1-8E98-26250A8A58E0}"/>
+						<Switch Name="Bass" ID="{1A0BFFF5-4CE5-47E8-B924-A12DDA77F5AE}"/>
+						<Switch Name="Mel" ID="{55D7C495-04E9-4617-B3D6-982B4B13E445}"/>
+						<Switch Name="Menu" ID="{A108FEA2-55D8-4854-9D81-93F520B1B3D5}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

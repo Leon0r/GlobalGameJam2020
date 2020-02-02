@@ -6,8 +6,19 @@
 				<SoundBank Name="Main" ID="{4D3747C8-22AA-484F-A8FC-FE81FF7D0C47}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Pasos" ID="{663E4045-1EDB-4088-A804-ABC1F9E99460}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MusicOn" ID="{74F2610A-7844-410B-9A05-684F4471F775}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Reparar" ID="{0CDA3E70-E76F-41E2-B8FD-AF59A36BE427}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Cae" ID="{75B3B938-3298-433F-9144-572CEE24DB8D}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Start" ID="{0229A9CD-9C9F-446B-B0A8-FE3237E20A78}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Muerte" ID="{CEC770D1-FB19-4522-86F7-C488CF1AC7DD}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cascada" ID="{87BE6F9E-509C-45B6-B9B4-CA04391701EB}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Vapor" ID="{94AABE11-72CD-4943-BD94-B895C493ABB0}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Aterriza" ID="{157BDB61-B798-4A30-A537-D7C040515599}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="End" ID="{AB380AE8-027A-4A3D-B9CD-B59A5481369B}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Salto" ID="{B02368D5-432B-4B72-BA01-3688D5FA125C}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Plataforma_gira" ID="{AB3B7E2D-2928-4BAC-B1DC-813F6B72E420}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VaporOff" ID="{AF3D4187-A65A-4D35-A5D8-74DBBB31F5C8}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Plataforma_desliza" ID="{10231DE5-B9A9-4FCE-AE9B-BB4BEFBF81D8}" WorkUnitID="{761C37CC-57F6-4532-9649-3641C75FA459}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

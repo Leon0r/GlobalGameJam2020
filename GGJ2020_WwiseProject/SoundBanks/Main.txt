@@ -1,41 +1,91 @@
 Event	ID	Name			Wwise Object Path	Notes
+	518281709	Vapor			\Default Work Unit\Vapor	
+	529726532	End			\Default Work Unit\End	
 	983016362	Cae			\Default Work Unit\Cae	
+	1260031541	Plataforma_desliza			\Default Work Unit\Plataforma_desliza	
+	1281810935	Start			\Default Work Unit\Start	
 	1498460211	Aterriza			\Default Work Unit\Aterriza	
+	2769925586	Reparar			\Default Work Unit\Reparar	
+	2948438984	Salto			\Default Work Unit\Salto	
 	3026462669	Pasos			\Default Work Unit\Pasos	
+	3990532890	Plataforma_gira			\Default Work Unit\Plataforma_gira	
+	3998479257	MusicOn			\Default Work Unit\MusicOn	
+	4121224172	VaporOff			\Default Work Unit\VaporOff	
+	4130013289	Cascada			\Default Work Unit\Cascada	
+	4243306039	Muerte			\Default Work Unit\Muerte	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3026462669	Pasos			\Default Work Unit\Pasos	
+	3991942870	Music			\Default Work Unit\Music	
 
 Switch	ID	Name	Switch Group			Notes
 	1926317228	Piedra	Pasos			
 	2306462273	Madera	Pasos			
 	2473969246	Metal	Pasos			
 	3219867671	Agua	Pasos			
+	298184921	Fondo	Music			
+	865867157	Arm	Music			
+	981339013	Mel	Music			
+	1291433344	Bass	Music			
+	2607556080	Menu	Music			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3728319	frase 2	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Vocal, Female, Shouting 2 SND3156 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Frases muerte\frase 2		243202
 	35271442	Metal, Impact, Drum, Thud, Rattle 2 SND7030	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Metal, Impact, Drum, Thud, Rattle 2 SND7030_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Metal\Metal, Impact, Drum, Thud, Rattle 2 SND7030		138892
 	36881717	Bullet, Impact, Metal, Light 7 SND6458	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Bullet, Impact, Metal, Light 7 SND6458_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Patas\Bullet, Impact, Metal, Light 7 SND6458		60216
 	39415663	Impact, Stone, Large, Hit Ground 1 SND30291	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Impact, Stone, Large, Hit Ground 1 SND30291_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Piedra\Impact, Stone, Large, Hit Ground 1 SND30291		126608
 	43832266	Bullet, Impact, Metal, Light 3 SND6390	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Bullet, Impact, Metal, Light 3 SND6390_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Patas\Bullet, Impact, Metal, Light 3 SND6390		78056
+	73703160	risa 3	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Laugh, Female SND3146 2_8D7EBA19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Risa\risa 3		143746
+	76642869	risa	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Laugh, Female SND3146_BD93A176.wem		\Actor-Mixer Hierarchy\Default Work Unit\Risa\risa		127088
+	130983813	rep 3	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Glass Shards, Small, Drop Into Container, Break 3 SND28495_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reparar\rep 3		357276
+	147874688	Design, Whoosh, Airy, Short 3 SND11903	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Design, Whoosh, Airy, Short 3 SND11903_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Salto\Salto swoosh\Design, Whoosh, Airy, Short 3 SND11903		207852
+	161500563	rep 1	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Glass Shards, Small, Drop Into Container, Break 1 SND28497_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reparar\rep 1		647256
 	183003567	Impact, Stone, Rock, Hit Floor SND30286	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Impact, Stone, Rock, Hit Floor SND30286_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Piedra\Impact, Stone, Rock, Hit Floor SND30286		49484
 	237446215	Impact, Stone, Rock, Hit Floor SND30286 1	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Impact, Stone, Rock, Hit Floor SND30286 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Piedra\Impact, Stone, Rock, Hit Floor SND30286 1		38584
-	249980797	Earthquake, Impact, Crack 04 SND13428	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Earthquake, Impact, Crack 04 SND13428_24702AFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cae\Earthquake, Impact, Crack 04 SND13428		183760
+	249980797	Earthquake, Impact, Crack 04 SND13428	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Earthquake, Impact, Crack 04 SND13428_AD2A684F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cae\Earthquake, Impact, Crack 04 SND13428		183760
+	257699881	start	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Key, Mortice, Set Down On Glass Table 02 SND38368_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\start		73080
+	272107460	Fondo 3-Fondo	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Fondo 3-Fondo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\Fondo 1-Arm\Fondo 3-Fondo		8220648
+	272693549	frase 1	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Vocal, Female, Shouting 1 SND3157 1_E5D4495D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Frases muerte\frase 1		83308
+	281893924	risa 2	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Laugh, Female SND3146 1_69399032.wem		\Actor-Mixer Hierarchy\Default Work Unit\Risa\risa 2		197888
 	353362043	Bullet, Impact, Metal, Heavy 7 SND6394	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Bullet, Impact, Metal, Heavy 7 SND6394_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Patas\Bullet, Impact, Metal, Heavy 7 SND6394		132220
+	355190226	rep 3r	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Glass Shards, Small, Drop Into Container, Break 3 SND28495 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reparar\rep 3r		354536
+	383512236	rep 2r	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Glass Shards, Small, Drop Into Container, Break 2 SND28496 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reparar\rep 2r		436800
+	389436905	Vapor hit	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Snowball, Hit Car Window 2 SND30268_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vapor\Vapor hit		48428
 	400448547	Bullet, Impact, Metal, Heavy 3 SND6398	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Bullet, Impact, Metal, Heavy 3 SND6398_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Patas\Bullet, Impact, Metal, Heavy 3 SND6398		94348
-	515731750	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_42D009A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518		155740
-	525621252	Wood, Impact, Hit, Table, Hard SND4258	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_A893A7BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258		98528
-	605443248	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_03	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_6175F498.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_03		109036
-	737266220	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_01	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_23A3FC15.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_01		116820
-	825483097	Wood, Impact, Hit, Table, Hard SND4258_03	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_B73C62CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258_03		75500
+	457595770	salto	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\R15-43-Woman Sobbing_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Salto\Salto\salto		38560
+	498618306	Weather, Wind, Forest, Trees, Birds SND7736	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Weather, Wind, Forest, Trees, Birds SND7736_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cascada\Weather, Wind, Forest, Trees, Birds SND7736		681140
+	515731750	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_B345DB4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518		155740
+	521397422	salto_01	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\R15-43-Woman Sobbing 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Salto\Salto\salto_01		44060
+	525621252	Wood, Impact, Hit, Table, Hard SND4258	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_99C69139.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258		98528
+	562927995	Design, Whoosh, Airy, Short 11 SND11924	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Design, Whoosh, Airy, Short 11 SND11924_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Salto\Salto swoosh\Design, Whoosh, Airy, Short 11 SND11924		105108
+	594540433	frase 3	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Vocal, Female, Shouting 3 SND3155_0B37B2AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Frases muerte\frase 3		129312
+	605443248	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_03	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_BF0EE9D1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_03		109036
+	607289076	Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambient\Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478		11212236
+	631757449	VaporOff 2	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Coughing, Female, 25 Years Old SND22873_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vapor\VaporOff\VaporOff 2		584352
+	674009381	Recompensa	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Cartoon, Heavenly Choir 3 SND31163_E8B77E76.wem		\Actor-Mixer Hierarchy\Default Work Unit\Recompensa		365504
+	675396017	Clock	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Clock, Grandfather, Antique, Old, Ticking, Mechanical Loop 01 SND37267_41E33005.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plataforma desliza\Clock		1006816
+	688499573	Fondo 1-Arm	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Fondo 1-Arm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\Fondo 1-Arm\Fondo 1-Arm		8220648
+	728449496	engine	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Machinery, CNC Machine, Head Moving, Tonal, Running, Normal SND9532_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plataforma desliza\Engine\engine		1223104
+	737266220	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_01	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_E678BBD8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_01		116820
+	778112959	VaporOff tose	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Human, Cough, Female, 60 Years Old 2 SND22878_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vapor\VaporOff\VaporOff tose		161420
+	825483097	Wood, Impact, Hit, Table, Hard SND4258_03	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_03879FA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258_03		75500
 	840500314	Bullet, Impact, Metal, Heavy 1 SND6400	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Bullet, Impact, Metal, Heavy 1 SND6400_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Patas\Bullet, Impact, Metal, Heavy 1 SND6400		79812
-	856744796	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_04	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_EADF31F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_04		124604
+	854591614	salto_02	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\R15-43-Woman Sobbing 4_8CC7F6C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Salto\Salto\salto_02		26568
+	856744796	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_04	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_B4E0943E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_04		124604
+	860269141	plataforma gira	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Machinery, Wood Chipping Machine, Fast Speed To Slowing Down SND9510_8652ED39.wem		\Actor-Mixer Hierarchy\Default Work Unit\plataforma gira\plataforma gira		285672
+	869283611	Weather, Wind, Interior, Cold, Howling, Rattle SND1950	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Weather, Wind, Interior, Cold, Howling, Rattle SND1950_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vapor\gas\Weather, Wind, Interior, Cold, Howling, Rattle SND1950		514156
 	911474110	Metal, Impact, Drum, Thud 1 SND7032	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Metal, Impact, Drum, Thud 1 SND7032_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Metal\Metal, Impact, Drum, Thud 1 SND7032		71796
-	916245545	Wood, Impact, Hit, Table, Hard SND4258_01	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_8BABD960.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258_01		104086
-	980963904	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_02	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_9C6C0598.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_02		163524
+	916245545	Wood, Impact, Hit, Table, Hard SND4258_01	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_9E03D251.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258_01		104086
+	938372439	Fondo	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Fondo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\Menu\Fondo		8220648
+	980963904	Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_02	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_520B6214.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Agua\Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_02		163524
 	1000140916	Impact, Stone, Large, Hit Ground 3 SND30289	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Impact, Stone, Large, Hit Ground 3 SND30289_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Piedra\Impact, Stone, Large, Hit Ground 3 SND30289		62000
-	1000148977	cae	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Design, Whoosh, Wind, Soft 3 SND11997_B2912096.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cae\Cae\cae		323332
+	1000148977	cae	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Design, Whoosh, Wind, Soft 3 SND11997_98E5E00C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cae\Cae\cae		323332
+	1013928689	rep 2	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Glass Shards, Small, Drop Into Container, Break 2 SND28496_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reparar\rep 2		464396
+	1014775817	rep 1r	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Glass Shards, Small, Drop Into Container, Break 1 SND28497 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reparar\rep 1r		626912
 	1035041268	Metal, Impact, Drum, Thud 3 SND7033	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Metal, Impact, Drum, Thud 3 SND7033_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Metal\Metal, Impact, Drum, Thud 3 SND7033		129560
-	1040151074	Wood, Impact, Hit, Table, Hard SND4258_02	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_3705DD0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258_02		156496
+	1040151074	Wood, Impact, Hit, Table, Hard SND4258_02	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Wood, Impact, Hit, Table, Hard SND4258_A5648043.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Madera\Wood, Impact, Hit, Table, Hard SND4258_02		156496
+	1040900571	Design, Whoosh, Low, Short 4 SND11972	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Design, Whoosh, Low, Short 4 SND11972_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Salto\Salto swoosh\Design, Whoosh, Low, Short 4 SND11972		128404
 	1049911430	Impact, Stone, Large, Hit Ground 5 SND30287	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Impact, Stone, Large, Hit Ground 5 SND30287_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Piedra\Impact, Stone, Large, Hit Ground 5 SND30287		123332
 	1061293933	Metal, Impact, Drum, Thud, Rattle 1 SND7031	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Metal, Impact, Drum, Thud, Rattle 1 SND7031_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Pasos\Metal\Metal, Impact, Drum, Thud, Rattle 1 SND7031		141672
+	1068463337	VaporOff_01	Y:\Desktop\El Juego\El juego\.cache\Windows\SFX\Design, Whoosh, Airy, Short 2 SND11904_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vapor\VaporOff_01		131464
 

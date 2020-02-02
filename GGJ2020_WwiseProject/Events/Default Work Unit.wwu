@@ -14,7 +14,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Salto" ID="{B02368D5-432B-4B72-BA01-3688D5FA125C}"/>
+				<Event Name="Salto" ID="{B02368D5-432B-4B72-BA01-3688D5FA125C}">
+					<ChildrenList>
+						<Action Name="" ID="{3FF1D86F-4F20-4541-B3FF-F654F5D4A59B}" ShortID="807660077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Salto" ID="{F58A413A-8FE6-4CC5-B8FE-64383FEC2D1C}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E07AAAC9-8EDE-4335-9A8B-EF4D9C6FBE39}" ShortID="330515464">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Salto swoosh" ID="{5F55493D-2F44-425A-9AEA-879D526D7DC4}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Cae" ID="{75B3B938-3298-433F-9144-572CEE24DB8D}">
 					<ChildrenList>
 						<Action Name="" ID="{3D0A56B0-3346-425C-8CC6-F85AB5A13F48}" ShortID="737070945">
@@ -54,11 +71,167 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Start" ID="{0229A9CD-9C9F-446B-B0A8-FE3237E20A78}"/>
-				<Event Name="End" ID="{AB380AE8-027A-4A3D-B9CD-B59A5481369B}"/>
-				<Event Name="Reparar" ID="{0CDA3E70-E76F-41E2-B8FD-AF59A36BE427}"/>
-				<Event Name="Gases" ID="{8DE03ECB-F519-4218-8BF9-E16A030E8FCF}"/>
-				<Event Name="Muerte" ID="{CEC770D1-FB19-4522-86F7-C488CF1AC7DD}"/>
+				<Event Name="Start" ID="{0229A9CD-9C9F-446B-B0A8-FE3237E20A78}">
+					<ChildrenList>
+						<Action Name="" ID="{F9F2D0E4-94DB-483D-A529-6DFA355918B9}" ShortID="207458788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="start" ID="{4C66ADA1-99D5-4A77-BC8A-5DE58428F479}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CEC9E3E0-1C49-4414-89AC-9923AD5173CF}" ShortID="325398327">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambient" ID="{5ADBBF43-842C-4E64-B91E-7257C0A1C1BE}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="End" ID="{AB380AE8-027A-4A3D-B9CD-B59A5481369B}">
+					<ChildrenList>
+						<Action Name="" ID="{10588B04-C264-4235-AF73-F75A37AB3CEF}" ShortID="347237994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Recompensa" ID="{2692BA62-343A-44F9-8995-25DB3F464847}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{66EE9BAE-A8D9-4FC5-84E3-FD9BAEEA9533}" ShortID="168827536">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Risa" ID="{FE6BB941-2DDA-4DDC-B2D5-0778067F7B5D}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Reparar" ID="{0CDA3E70-E76F-41E2-B8FD-AF59A36BE427}">
+					<ChildrenList>
+						<Action Name="" ID="{A09E84DD-BEF5-4FF1-9CCD-3830C305BD8C}" ShortID="993338543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reparar" ID="{CD512FDA-133D-4F1A-B6C4-DE0DCA6D8FC0}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Muerte" ID="{CEC770D1-FB19-4522-86F7-C488CF1AC7DD}">
+					<ChildrenList>
+						<Action Name="" ID="{DC6E0BCC-41AB-40ED-A532-2AC0EE22ACFF}" ShortID="839070697">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Frases muerte" ID="{D01BC620-7FAA-447B-A6D8-9CAE4B097B4C}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicOn" ID="{74F2610A-7844-410B-9A05-684F4471F775}">
+					<ChildrenList>
+						<Action Name="" ID="{44CFFDDD-22A2-4D34-939B-6A9203382F8F}" ShortID="658923238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Switch" ID="{00188BB0-F220-4AAF-9026-522EB8177BB4}" WorkUnitID="{F9F189BA-0B4B-41D9-897D-291A708E97FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Plataforma_desliza" ID="{10231DE5-B9A9-4FCE-AE9B-BB4BEFBF81D8}">
+					<ChildrenList>
+						<Action Name="" ID="{BD233AD3-F2B5-4DBC-8E78-0354AB2B5441}" ShortID="277805572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock" ID="{175D733B-81F6-4FC1-ADD7-C38BFB60FFA2}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{97038785-21C2-4ADF-8AF2-DF7AB4D26351}" ShortID="588504563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{5094A010-941B-4D91-9FCB-9EE3087E68DB}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Plataforma_gira" ID="{AB3B7E2D-2928-4BAC-B1DC-813F6B72E420}">
+					<ChildrenList>
+						<Action Name="" ID="{5EB78372-E148-44EB-A82A-A51D8E0314E8}" ShortID="676033746">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plataforma gira" ID="{DF3482F6-165B-4413-A85B-CCD4E555BC3C}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Vapor" ID="{94AABE11-72CD-4943-BD94-B895C493ABB0}">
+					<ChildrenList>
+						<Action Name="" ID="{9C7FD554-A682-48E5-A3A4-25C5DE6EC202}" ShortID="1008777338">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gas" ID="{52246B5B-CB67-471C-957D-F9BC17E85DFA}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{614454DE-A7FD-4BE8-AD38-E7B497E16373}" ShortID="49207796">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vapor hit" ID="{45A0E962-C054-4619-B76E-6DFEA9F624B7}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VaporOff" ID="{AF3D4187-A65A-4D35-A5D8-74DBBB31F5C8}">
+					<ChildrenList>
+						<Action Name="" ID="{D692C7C1-006F-4433-838F-4C152EFAD433}" ShortID="820058731">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gas" ID="{52246B5B-CB67-471C-957D-F9BC17E85DFA}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CFE4AE29-B4DF-4FED-A0B7-8E4FA704E472}" ShortID="84807604">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VaporOff" ID="{E641FA26-04CE-484B-909A-948B8990C559}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3F0DFFCF-F9ED-429C-90B5-3B7F53E4905B}" ShortID="655707772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VaporOff_01" ID="{2CD6B26C-56FF-42E9-88C7-BAED7C0FF589}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cascada" ID="{87BE6F9E-509C-45B6-B9B4-CA04391701EB}">
+					<ChildrenList>
+						<Action Name="" ID="{E522D6E4-D292-4C4C-9304-FB24C26E6417}" ShortID="575419956">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cascada" ID="{0D7BE282-9DD8-4D8C-A955-6313492A079E}" WorkUnitID="{B7CDDF24-FBC8-42D2-81FE-4D85B9056EB2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
