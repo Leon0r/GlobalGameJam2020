@@ -15,10 +15,13 @@ public class LevelManager : MonoBehaviour
     private bool repairing;
     private Vector3 lastPlayerPosition;
 
-    // Timer y cosos
     private float timeLeft;
+    public Timer timer;
 
     // Start is called before the first frame update
+    void Awake() {
+        timer.SetCountDown(timeLeft);
+    }
     void Start() {
         lastPlayerPosition = playerMovement.transform.position;
         repairing = false;
@@ -34,18 +37,22 @@ public class LevelManager : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        isMoving = (lastPlayerPosition != playerMovement.transform.position);
+        isMoving = (playerMovement.GetRigidBody().velocity != Vector2.zero);
 
         if (!isMoving) {
+            Debug.Log("PERO QUE COJONES HACES AQUÍ");
+            timer.CountDown();
             timeLeft -= Time.deltaTime;
         }
-        else
-        {
+        else {
+            isMoving = true;
             timeLeft = idleTime;
+            timer.SetCountDown(idleTime);
         }
 
         if (timeLeft < 0) { 
             repairing = true;
+            timer.SetCountDown(0);
         }
 
         for (int i = 0; i < platforms.Length; i++) {
@@ -55,5 +62,9 @@ public class LevelManager : MonoBehaviour
         }
 
         lastPlayerPosition = playerMovement.transform.position;
+    }
+
+    public float GetTimeLeft() {
+        return timeLeft;
     }
 }
