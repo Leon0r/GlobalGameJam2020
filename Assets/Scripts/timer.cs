@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class timer : MonoBehaviour
+public class Timer : MonoBehaviour
 {
     public Image fillImg;
-    public float countdown = 10;
-    private float currentTime;
+    private float countdown = 3;
+    private float currentTime = 0;
 
 
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class timer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() {
+    public void CountDown() {
         if (currentTime > 0) {
             currentTime -= Time.deltaTime;
             fillImg.fillAmount = currentTime / countdown;
@@ -25,5 +25,10 @@ public class timer : MonoBehaviour
         else {
             currentTime = countdown;
         }
+    }
+
+    public void SetCountDown(float cDown) {
+        countdown = cDown;
+        fillImg.fillAmount = (cDown> 1)? 1 : cDown;
     }
 }

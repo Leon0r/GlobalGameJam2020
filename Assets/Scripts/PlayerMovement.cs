@@ -10,11 +10,12 @@ public class PlayerMovement : MonoBehaviour {
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
-
+    Rigidbody2D rb;
     Vector3 initPos;
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         initPos = transform.position;
         characterController = GetComponent<CharacterController2D>();
     }
@@ -51,5 +52,9 @@ public class PlayerMovement : MonoBehaviour {
     {
         // Later we should add lives and a live-counter somewhere
         transform.position = initPos;
+    }
+
+    public Rigidbody2D GetRigidBody() {
+        return rb;
     }
 }
