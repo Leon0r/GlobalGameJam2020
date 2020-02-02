@@ -57,6 +57,7 @@ public class LevelManager : MonoBehaviour
 
         for (int i = 0; i < platforms.Length; i++) {
             if (platforms[i].isRepairable && repairing) {
+                Debug.Log("JE");
                 platforms[i].UpdateState();
             }
         }

@@ -183,7 +183,8 @@ public class Platform : MonoBehaviour
     {
         //Vector3 screenPoint = Camera.main.WorldToViewportPoint(transform.position);
         //insideViewPort = screenPoint.z > 0 && screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
-        insideViewPort = Camera.main.IsObjectVisible(GetComponent<SpriteRenderer>());
+        insideViewPort = Camera.main.IsObjectVisible(transform.GetChild(0).GetComponent<SpriteRenderer>());
+        
         if (insideViewPort) {
             if (!activation.enabled) {
                 Repair();
