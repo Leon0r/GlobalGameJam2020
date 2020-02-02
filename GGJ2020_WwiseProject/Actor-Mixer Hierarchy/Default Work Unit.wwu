@@ -1425,7 +1425,261 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="cascada" ID="{0D7BE282-9DD8-4D8C-A955-6313492A079E}" ShortID="672281423">
+				<Sound Name="start" ID="{4C66ADA1-99D5-4A77-BC8A-5DE58428F479}" ShortID="155051559">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Key, Mortice, Set Down On Glass Table 02 SND38368" ID="{972F3292-AA25-49EA-A0A0-C938262F0757}" ShortID="257699881">
+							<Language>SFX</Language>
+							<AudioFile>Key, Mortice, Set Down On Glass Table 02 SND38368.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Key, Mortice, Set Down On Glass Table 02 SND38368" ID="{972F3292-AA25-49EA-A0A0-C938262F0757}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="ambient" ID="{5ADBBF43-842C-4E64-B91E-7257C0A1C1BE}" ShortID="95536366">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{6F61E68A-8FDA-4718-9594-8235EFC0E9A3}" ShortID="601709028">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{57BC2188-DF1C-4832-9B60-DDD664705CD0}" ShortID="607289076">
+									<Language>SFX</Language>
+									<AudioFile>Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{57BC2188-DF1C-4832-9B60-DDD664705CD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<ActorMixer Name="Vapor" ID="{39E40BCD-774E-41D4-B019-1BC24A6A8A25}" ShortID="214083470">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Vapor hit" ID="{45A0E962-C054-4619-B76E-6DFEA9F624B7}" ShortID="420922596">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>47</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>910</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Snowball, Hit Car Window 2 SND30268" ID="{2B6AF1E9-1F3E-4637-8A7B-2A9CF564A575}" ShortID="389436905">
+									<Language>SFX</Language>
+									<AudioFile>Snowball, Hit Car Window 2 SND30268.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Snowball, Hit Car Window 2 SND30268" ID="{2B6AF1E9-1F3E-4637-8A7B-2A9CF564A575}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="VaporOff" ID="{E641FA26-04CE-484B-909A-948B8990C559}" ShortID="907235242">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VaporOff 2" ID="{5FE2503D-B66B-4480-9FD5-345A34B59765}" ShortID="387050970">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Human, Coughing, Female, 25 Years Old SND22873" ID="{4FF98E71-6649-45E6-A9E6-714A6A45FC68}" ShortID="631757449">
+											<Language>SFX</Language>
+											<AudioFile>Human, Coughing, Female, 25 Years Old SND22873.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Human, Coughing, Female, 25 Years Old SND22873" ID="{4FF98E71-6649-45E6-A9E6-714A6A45FC68}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VaporOff tose" ID="{1B00895D-9952-4CAD-8275-5D709AF2518F}" ShortID="465714988">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Human, Cough, Female, 60 Years Old 2 SND22878" ID="{E9AD4DD0-0422-419C-BD1F-F05CD44894DC}" ShortID="778112959">
+											<Language>SFX</Language>
+											<AudioFile>Human, Cough, Female, 60 Years Old 2 SND22878.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Human, Cough, Female, 60 Years Old 2 SND22878" ID="{E9AD4DD0-0422-419C-BD1F-F05CD44894DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="gas" ID="{52246B5B-CB67-471C-957D-F9BC17E85DFA}" ShortID="20835149">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{2F29E243-F5C0-4329-8771-27FC51F7ACE7}" ShortID="538277782">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{54D26269-A237-4032-84A5-D42F2D9B8B19}" ShortID="869283611">
+											<Language>SFX</Language>
+											<AudioFile>Weather, Wind, Interior, Cold, Howling, Rattle SND1950.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{54D26269-A237-4032-84A5-D42F2D9B8B19}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{2F29E243-F5C0-4329-8771-27FC51F7ACE7}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<Sound Name="VaporOff_01" ID="{2CD6B26C-56FF-42E9-88C7-BAED7C0FF589}" ShortID="94311172">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>31</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Design, Whoosh, Airy, Short 2 SND11904" ID="{574DEED3-2BB2-4C83-8095-EFC23A17917A}" ShortID="1068463337">
+									<Language>SFX</Language>
+									<AudioFile>Design, Whoosh, Airy, Short 2 SND11904.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Design, Whoosh, Airy, Short 2 SND11904" ID="{574DEED3-2BB2-4C83-8095-EFC23A17917A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<RandomSequenceContainer Name="Cascada" ID="{0D7BE282-9DD8-4D8C-A955-6313492A079E}" ShortID="672281423">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -1436,11 +1690,11 @@
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
-								<Attenuation Name="Attenuation (Custom)" ID="{48FBA3DA-56A9-46FD-AF4F-1B01D84F2EA7}" ShortID="991868299">
+								<Attenuation Name="Attenuation (Custom)" ID="{3349E1A1-EB43-4891-8B5C-D20BCF44506C}" ShortID="197467681">
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-												<Curve Name="VolumeDry" ID="{1D1B1279-2AA4-43BE-B981-44357B499929}">
+												<Curve Name="VolumeDry" ID="{EF0D4490-BE19-4CB8-BB62-18220F3C8D0A}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
 													</PropertyList>
@@ -1528,110 +1782,6 @@
 					</ChildrenList>
 					<Playlist>
 						<ItemRef Name="Weather, Wind, Forest, Trees, Birds SND7736" ID="{2C2C8315-5D72-4442-AAB5-16C07C63D37E}"/>
-					</Playlist>
-				</RandomSequenceContainer>
-				<Sound Name="start" ID="{4C66ADA1-99D5-4A77-BC8A-5DE58428F479}" ShortID="155051559">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Key, Mortice, Set Down On Glass Table 02 SND38368" ID="{972F3292-AA25-49EA-A0A0-C938262F0757}" ShortID="257699881">
-							<Language>SFX</Language>
-							<AudioFile>Key, Mortice, Set Down On Glass Table 02 SND38368.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Key, Mortice, Set Down On Glass Table 02 SND38368" ID="{972F3292-AA25-49EA-A0A0-C938262F0757}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<RandomSequenceContainer Name="ambient" ID="{5ADBBF43-842C-4E64-B91E-7257C0A1C1BE}" ShortID="95536366">
-					<PropertyList>
-						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{6F61E68A-8FDA-4718-9594-8235EFC0E9A3}" ShortID="601709028">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{57BC2188-DF1C-4832-9B60-DDD664705CD0}" ShortID="607289076">
-									<Language>SFX</Language>
-									<AudioFile>Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478" ID="{57BC2188-DF1C-4832-9B60-DDD664705CD0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="gas" ID="{52246B5B-CB67-471C-957D-F9BC17E85DFA}" ShortID="20835149">
-					<PropertyList>
-						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{2F29E243-F5C0-4329-8771-27FC51F7ACE7}" ShortID="538277782">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{54D26269-A237-4032-84A5-D42F2D9B8B19}" ShortID="869283611">
-									<Language>SFX</Language>
-									<AudioFile>Weather, Wind, Interior, Cold, Howling, Rattle SND1950.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{54D26269-A237-4032-84A5-D42F2D9B8B19}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-					<Playlist>
-						<ItemRef Name="Weather, Wind, Interior, Cold, Howling, Rattle SND1950" ID="{2F29E243-F5C0-4329-8771-27FC51F7ACE7}"/>
 					</Playlist>
 				</RandomSequenceContainer>
 			</ChildrenList>

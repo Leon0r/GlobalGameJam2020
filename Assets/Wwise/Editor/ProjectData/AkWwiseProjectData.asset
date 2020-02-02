@@ -17,21 +17,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2816699e42885048b4bea71ba3188fb3
     GuidInternal: 
-    m_lastTime: -8586210227072335888
+    m_lastTime: -8586210130586296970
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: e5734bf55936c74daaf255b261e9a40c
     GuidInternal: 
-    m_lastTime: -8586210227076526127
+    m_lastTime: -8586210130587164649
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 7c5bb30827a8a04193c9375504be3b16
     GuidInternal: 
-    m_lastTime: -8586209712043340040
+    m_lastTime: -8586210109454775808
     List:
     - name: Main
       guid: c847374daa224f48a8fcfe81ff7d0c47
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: cc371c76f657324596493641c75fa459
     GuidInternal: 
-    m_lastTime: -8586209712068511480
+    m_lastTime: -8586210053914775808
     List:
     - name: Aterriza
       guid: 61db7b1598b7304aa537d7c040515599
@@ -59,8 +59,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Aterriza
       maxAttenuation: 0
-      maxDuration: 956763
-      minDuration: 956763
+      maxDuration: 0.956763
+      minDuration: 0.956763
     - name: Cae
       guid: 38b9b37598323f439144572cee24db8d
       id: 983016362
@@ -83,8 +83,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\End
       maxAttenuation: 0
-      maxDuration: 2560667
-      minDuration: 1903344
+      maxDuration: 2.560667
+      minDuration: 1.903344
     - name: Muerte
       guid: d170c7ce19fb224586f7c488cf1ac7dd
       id: 4243306039
@@ -95,8 +95,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Muerte
       maxAttenuation: 0
-      maxDuration: 2532687
-      minDuration: 867137
+      maxDuration: 2.532687
+      minDuration: 0.867137
     - name: MusicOn
       guid: 0a61f27444780b419a05684f4471f775
       id: 3998479257
@@ -119,8 +119,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Pasos
       maxAttenuation: 0
-      maxDuration: 1629497
-      minDuration: 200635
+      maxDuration: 1.629497
+      minDuration: 0.200635
     - name: Plataforma_desliza
       guid: e51d2310a9b9ce4fae9bbb4befbf81d8
       id: 1260031541
@@ -155,8 +155,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Reparar
       maxAttenuation: 0
-      maxDuration: 3370802
-      minDuration: 1846208
+      maxDuration: 3.370802
+      minDuration: 1.846208
     - name: Salto
       guid: d56823b02b43724bba013688d5fa125c
       id: 2948438984
@@ -167,8 +167,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Salto
       maxAttenuation: 0
-      maxDuration: 1082229
-      minDuration: 547115
+      maxDuration: 1.082229
+      minDuration: 0.547115
     - name: Start
       guid: cda929029f9c6b44b0a8fe3237e20a78
       id: 1281810935
@@ -198,21 +198,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 369ec5632e03d94992bff3803d99782d
     GuidInternal: 
-    m_lastTime: -8586210227077026156
+    m_lastTime: -8586210130587234461
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: d2a488a98ad82b4ca90cb3d9db240c84
     GuidInternal: 
-    m_lastTime: -8586210227072375890
+    m_lastTime: -8586210130586366783
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 7b7156aa48a3e74c863d97ae4decef6a
     GuidInternal: 
-    m_lastTime: -8586209712041689946
+    m_lastTime: -8586210134474775808
     List:
     - name: Menu
       guid: b700dc372f834648bb7ac7dcfa90094c
@@ -318,7 +318,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 02f2d6578af0f74cb691cb34d417169c
     GuidInternal: 
-    m_lastTime: -8586210227072345888
+    m_lastTime: -8586210130586306943
     List: []
   ExpandedItems:
   - /El juego
