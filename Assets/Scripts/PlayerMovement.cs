@@ -28,25 +28,27 @@ public class PlayerMovement : MonoBehaviour
 
     public void Dead()
     {
+        AkSoundEngine.PostEvent("Muerte", gameObject);
         transform.position = initPos;
     }
 
     //Get the input from the player
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        horizontalMove = Input.GetAxisRaw("HorizontalMove") * runSpeed;
 
-        if(horizontalMove == 0)
-        {
+        if(horizontalMove == 0) {
             timeSitting -= Time.deltaTime;
-            if(timeSitting <= 0)
-            {
+            if(timeSitting <= 0) {
                 timeSitting = 2f;
                 animator.SetBool("Sitting", true);
+                //Y aqui se hace lo del SoundManager
+                //SoundManager.instance.ChangeState(3);
+                //SoundManager.instance.Sentarse();
             }
         }
 
-        else if (animator.GetBool("Sitting") && horizontalMove == 0)
+        else if (animator.GetBool("Sitting"))
         {
             animator.SetBool("Sitting", false);
         }
@@ -56,7 +58,9 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            animator.SetTrigger("IsJumping");
+            animator.SetBool("IsJumping", true);
+            animator.SetBool("Sitting", false);
+
         }
 
         if (Input.GetButtonDown("Crouch"))
@@ -72,7 +76,11 @@ public class PlayerMovement : MonoBehaviour
     //Cuando el personaje toca el suelo
     public void OnLanding()
     {
-        animator.Play("JumpEnd");
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("JumpAir") || animator.GetCurrentAnimatorStateInfo(0).IsName("JumpAir"))
+        {
+            animator.Play("JumpEnd");
+        }
+        animator.SetBool("IsJumping", false);
     }
 
     //Move the character 

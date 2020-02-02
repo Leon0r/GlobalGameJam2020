@@ -447,6 +447,7 @@ MonoBehaviour:
   - {fileID: 1425952301}
   playerMovement: {fileID: 0}
   idleTime: 3
+  timer: {fileID: 0}
 --- !u!4 &115330238
 Transform:
   m_ObjectHideFlags: 0
@@ -6451,6 +6452,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRepairable: 1
+  broken: {fileID: 0}
+  complete: {fileID: 0}
   movesVert: 0
   distanceY: 3
   velVert: 1
@@ -6755,6 +6758,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 654179533}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &632451742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3343515077163465392, guid: 60b6e5f808de96044b667b2bd77a73b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 654179533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632451736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b1674217f972741ba5c3a90449800c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &632451744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3343515077163465420, guid: 60b6e5f808de96044b667b2bd77a73b5,
@@ -6909,23 +6924,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465395, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343515077163465395, guid: 60b6e5f808de96044b667b2bd77a73b5,
+        type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 632451741}
+    - target: {fileID: 3343515077163465395, guid: 60b6e5f808de96044b667b2bd77a73b5,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343515077163465395, guid: 60b6e5f808de96044b667b2bd77a73b5,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343515077163465395, guid: 60b6e5f808de96044b667b2bd77a73b5,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 632451742}
+    - target: {fileID: 3343515077163465395, guid: 60b6e5f808de96044b667b2bd77a73b5,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnLanding
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343515077163465395, guid: 60b6e5f808de96044b667b2bd77a73b5,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465421, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465421, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 4.37
+      value: 5.5299997
       objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465421, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 7.6699996
+      value: 7.95
       objectReference: {fileID: 0}
     - target: {fileID: 3343515077163465396, guid: 60b6e5f808de96044b667b2bd77a73b5,
         type: 3}
@@ -6933,6 +6978,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: cdd4e94dc3bf34148bcbef7b19b776fa,
         type: 2}
+    - target: {fileID: 3343515077163465392, guid: 60b6e5f808de96044b667b2bd77a73b5,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 632451741}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60b6e5f808de96044b667b2bd77a73b5, type: 3}
 --- !u!1 &657775778
@@ -7989,10 +8039,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 451556616}
     m_Modifications:
-    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
-      propertyPath: m_Name
-      value: LevelChanger
-      objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 131
@@ -8036,6 +8082,10 @@ PrefabInstance:
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
+      propertyPath: m_Name
+      value: LevelChanger
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114718032711177914, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
@@ -8342,6 +8392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRepairable: 1
+  broken: {fileID: 0}
+  complete: {fileID: 0}
   movesVert: 0
   distanceY: 3
   velVert: 1
@@ -9331,10 +9383,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
-      propertyPath: m_Name
-      value: LevelChanger
-      objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 123
@@ -9365,7 +9413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9378,6 +9426,10 @@ PrefabInstance:
     - target: {fileID: 4735274754936302, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098778610953676, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
+      propertyPath: m_Name
+      value: LevelChanger
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114718032711177914, guid: 27da7568d1fd26045bdc69ef630c990c, type: 3}
@@ -9428,6 +9480,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRepairable: 1
+  broken: {fileID: 0}
+  complete: {fileID: 0}
   movesVert: 1
   distanceY: 3
   velVert: 1
