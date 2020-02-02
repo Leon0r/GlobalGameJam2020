@@ -23,9 +23,26 @@
 			<IncludedEvents>
 				<Event Id="1498460211" Name="Aterriza" ObjectPath="\Events\Default Work Unit\Aterriza"/>
 				<Event Id="983016362" Name="Cae" ObjectPath="\Events\Default Work Unit\Cae"/>
+				<Event Id="529726532" Name="End" ObjectPath="\Events\Default Work Unit\End"/>
+				<Event Id="4243306039" Name="Muerte" ObjectPath="\Events\Default Work Unit\Muerte"/>
+				<Event Id="3998479257" Name="MusicOn" ObjectPath="\Events\Default Work Unit\MusicOn"/>
 				<Event Id="3026462669" Name="Pasos" ObjectPath="\Events\Default Work Unit\Pasos"/>
+				<Event Id="1260031541" Name="Plataforma_desliza" ObjectPath="\Events\Default Work Unit\Plataforma_desliza"/>
+				<Event Id="3990532890" Name="Plataforma_gira" ObjectPath="\Events\Default Work Unit\Plataforma_gira"/>
+				<Event Id="2769925586" Name="Reparar" ObjectPath="\Events\Default Work Unit\Reparar"/>
+				<Event Id="2948438984" Name="Salto" ObjectPath="\Events\Default Work Unit\Salto"/>
+				<Event Id="1281810935" Name="Start" ObjectPath="\Events\Default Work Unit\Start"/>
+				<Event Id="518281709" Name="Vapor" ObjectPath="\Events\Default Work Unit\Vapor"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="3728319" Language="SFX">
+					<ShortName>Human, Vocal, Female, Shouting 2 SND3156 1.wav</ShortName>
+					<Path>SFX/Human, Vocal, Female, Shouting 2 SND3156 1_10C4C929.wem</Path>
+				</File>
+				<File Id="33204593" Language="SFX">
+					<ShortName>Fondo 6-Mel.wav</ShortName>
+					<Path>SFX/Fondo 6-Mel_D79FB2B7.wem</Path>
+				</File>
 				<File Id="35271442" Language="SFX">
 					<ShortName>Metal, Impact, Drum, Thud, Rattle 2 SND7030.wav</ShortName>
 					<Path>SFX/Metal, Impact, Drum, Thud, Rattle 2 SND7030_10C4C929.wem</Path>
@@ -42,6 +59,26 @@
 					<ShortName>Bullet, Impact, Metal, Light 3 SND6390.wav</ShortName>
 					<Path>SFX/Bullet, Impact, Metal, Light 3 SND6390_10C4C929.wem</Path>
 				</File>
+				<File Id="73703160" Language="SFX">
+					<ShortName>Human, Laugh, Female SND3146 2.wav</ShortName>
+					<Path>SFX/Human, Laugh, Female SND3146 2_778BD974.wem</Path>
+				</File>
+				<File Id="76642869" Language="SFX">
+					<ShortName>Human, Laugh, Female SND3146.wav</ShortName>
+					<Path>SFX/Human, Laugh, Female SND3146_A8797AB8.wem</Path>
+				</File>
+				<File Id="130983813" Language="SFX">
+					<ShortName>Glass Shards, Small, Drop Into Container, Break 3 SND28495.wav</ShortName>
+					<Path>SFX/Glass Shards, Small, Drop Into Container, Break 3 SND28495_10C4C929.wem</Path>
+				</File>
+				<File Id="147874688" Language="SFX">
+					<ShortName>Design, Whoosh, Airy, Short 3 SND11903.wav</ShortName>
+					<Path>SFX/Design, Whoosh, Airy, Short 3 SND11903_10C4C929.wem</Path>
+				</File>
+				<File Id="161500563" Language="SFX">
+					<ShortName>Glass Shards, Small, Drop Into Container, Break 1 SND28497.wav</ShortName>
+					<Path>SFX/Glass Shards, Small, Drop Into Container, Break 1 SND28497_10C4C929.wem</Path>
+				</File>
 				<File Id="183003567" Language="SFX">
 					<ShortName>Impact, Stone, Rock, Hit Floor SND30286.wav</ShortName>
 					<Path>SFX/Impact, Stone, Rock, Hit Floor SND30286_10C4C929.wem</Path>
@@ -52,43 +89,131 @@
 				</File>
 				<File Id="249980797" Language="SFX">
 					<ShortName>Earthquake, Impact, Crack 04 SND13428.wav</ShortName>
-					<Path>SFX/Earthquake, Impact, Crack 04 SND13428_24702AFB.wem</Path>
+					<Path>SFX/Earthquake, Impact, Crack 04 SND13428_AD2A684F.wem</Path>
+				</File>
+				<File Id="257699881" Language="SFX">
+					<ShortName>Key, Mortice, Set Down On Glass Table 02 SND38368.wav</ShortName>
+					<Path>SFX/Key, Mortice, Set Down On Glass Table 02 SND38368_10C4C929.wem</Path>
+				</File>
+				<File Id="272107460" Language="SFX">
+					<ShortName>Fondo 3-Fondo.wav</ShortName>
+					<Path>SFX/Fondo 3-Fondo_D79FB2B7.wem</Path>
+				</File>
+				<File Id="272693549" Language="SFX">
+					<ShortName>Human, Vocal, Female, Shouting 1 SND3157 1.wav</ShortName>
+					<Path>SFX/Human, Vocal, Female, Shouting 1 SND3157 1_3B62C2BA.wem</Path>
+				</File>
+				<File Id="281893924" Language="SFX">
+					<ShortName>Human, Laugh, Female SND3146 1.wav</ShortName>
+					<Path>SFX/Human, Laugh, Female SND3146 1_34C7B2B8.wem</Path>
+				</File>
+				<File Id="349058008" Language="SFX">
+					<ShortName>Fondo 7-Snare.wav</ShortName>
+					<Path>SFX/Fondo 7-Snare_D79FB2B7.wem</Path>
 				</File>
 				<File Id="353362043" Language="SFX">
 					<ShortName>Bullet, Impact, Metal, Heavy 7 SND6394.wav</ShortName>
 					<Path>SFX/Bullet, Impact, Metal, Heavy 7 SND6394_10C4C929.wem</Path>
 				</File>
+				<File Id="355190226" Language="SFX">
+					<ShortName>Glass Shards, Small, Drop Into Container, Break 3 SND28495 1.wav</ShortName>
+					<Path>SFX/Glass Shards, Small, Drop Into Container, Break 3 SND28495 1_10C4C929.wem</Path>
+				</File>
+				<File Id="383512236" Language="SFX">
+					<ShortName>Glass Shards, Small, Drop Into Container, Break 2 SND28496 2.wav</ShortName>
+					<Path>SFX/Glass Shards, Small, Drop Into Container, Break 2 SND28496 2_10C4C929.wem</Path>
+				</File>
 				<File Id="400448547" Language="SFX">
 					<ShortName>Bullet, Impact, Metal, Heavy 3 SND6398.wav</ShortName>
 					<Path>SFX/Bullet, Impact, Metal, Heavy 3 SND6398_10C4C929.wem</Path>
 				</File>
+				<File Id="457595770" Language="SFX">
+					<ShortName>R15-43-Woman Sobbing.wav</ShortName>
+					<Path>SFX/R15-43-Woman Sobbing_10C4C929.wem</Path>
+				</File>
 				<File Id="515731750" Language="SFX">
 					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
-					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_42D009A6.wem</Path>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_B345DB4E.wem</Path>
+				</File>
+				<File Id="521397422" Language="SFX">
+					<ShortName>R15-43-Woman Sobbing 1.wav</ShortName>
+					<Path>SFX/R15-43-Woman Sobbing 1_10C4C929.wem</Path>
 				</File>
 				<File Id="525621252" Language="SFX">
 					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
-					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_A893A7BE.wem</Path>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_99C69139.wem</Path>
+				</File>
+				<File Id="562927995" Language="SFX">
+					<ShortName>Design, Whoosh, Airy, Short 11 SND11924.wav</ShortName>
+					<Path>SFX/Design, Whoosh, Airy, Short 11 SND11924_10C4C929.wem</Path>
+				</File>
+				<File Id="594540433" Language="SFX">
+					<ShortName>Human, Vocal, Female, Shouting 3 SND3155.wav</ShortName>
+					<Path>SFX/Human, Vocal, Female, Shouting 3 SND3155_6B3610BD.wem</Path>
 				</File>
 				<File Id="605443248" Language="SFX">
 					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
-					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_6175F498.wem</Path>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_BF0EE9D1.wem</Path>
+				</File>
+				<File Id="607289076" Language="SFX">
+					<ShortName>Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478.wav</ShortName>
+					<Path>SFX/Weather, Rain, Light, Countryside, Wind In Leaves 2 SND5478_10C4C929.wem</Path>
+				</File>
+				<File Id="674009381" Language="SFX">
+					<ShortName>Cartoon, Heavenly Choir 3 SND31163.wav</ShortName>
+					<Path>SFX/Cartoon, Heavenly Choir 3 SND31163_032E6CFB.wem</Path>
+				</File>
+				<File Id="675396017" Language="SFX">
+					<ShortName>Clock, Grandfather, Antique, Old, Ticking, Mechanical Loop 01 SND37267.wav</ShortName>
+					<Path>SFX/Clock, Grandfather, Antique, Old, Ticking, Mechanical Loop 01 SND37267_1C60D3DA.wem</Path>
+				</File>
+				<File Id="688499573" Language="SFX">
+					<ShortName>Fondo 1-Arm.wav</ShortName>
+					<Path>SFX/Fondo 1-Arm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="690965621" Language="SFX">
+					<ShortName>Fondo 5-Kick.wav</ShortName>
+					<Path>SFX/Fondo 5-Kick_D79FB2B7.wem</Path>
+				</File>
+				<File Id="701693853" Language="SFX">
+					<ShortName>Fondo A-Main Hall.wav</ShortName>
+					<Path>SFX/Fondo A-Main Hall_D79FB2B7.wem</Path>
+				</File>
+				<File Id="728449496" Language="SFX">
+					<ShortName>Machinery, CNC Machine, Head Moving, Tonal, Running, Normal SND9532.wav</ShortName>
+					<Path>SFX/Machinery, CNC Machine, Head Moving, Tonal, Running, Normal SND9532_10C4C929.wem</Path>
 				</File>
 				<File Id="737266220" Language="SFX">
 					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
-					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_23A3FC15.wem</Path>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_E678BBD8.wem</Path>
 				</File>
 				<File Id="825483097" Language="SFX">
 					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
-					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_B73C62CF.wem</Path>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_03879FA9.wem</Path>
 				</File>
 				<File Id="840500314" Language="SFX">
 					<ShortName>Bullet, Impact, Metal, Heavy 1 SND6400.wav</ShortName>
 					<Path>SFX/Bullet, Impact, Metal, Heavy 1 SND6400_10C4C929.wem</Path>
 				</File>
+				<File Id="844152799" Language="SFX">
+					<ShortName>Fondo 4-Hat.wav</ShortName>
+					<Path>SFX/Fondo 4-Hat_D79FB2B7.wem</Path>
+				</File>
+				<File Id="854591614" Language="SFX">
+					<ShortName>R15-43-Woman Sobbing 4.wav</ShortName>
+					<Path>SFX/R15-43-Woman Sobbing 4_8CC7F6C2.wem</Path>
+				</File>
 				<File Id="856744796" Language="SFX">
 					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
-					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_EADF31F2.wem</Path>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_B4E0943E.wem</Path>
+				</File>
+				<File Id="860269141" Language="SFX">
+					<ShortName>Machinery, Wood Chipping Machine, Fast Speed To Slowing Down SND9510.wav</ShortName>
+					<Path>SFX/Machinery, Wood Chipping Machine, Fast Speed To Slowing Down SND9510_679500FA.wem</Path>
+				</File>
+				<File Id="869283611" Language="SFX">
+					<ShortName>Weather, Wind, Interior, Cold, Howling, Rattle SND1950.wav</ShortName>
+					<Path>SFX/Weather, Wind, Interior, Cold, Howling, Rattle SND1950_10C4C929.wem</Path>
 				</File>
 				<File Id="911474110" Language="SFX">
 					<ShortName>Metal, Impact, Drum, Thud 1 SND7032.wav</ShortName>
@@ -96,11 +221,11 @@
 				</File>
 				<File Id="916245545" Language="SFX">
 					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
-					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_8BABD960.wem</Path>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_9E03D251.wem</Path>
 				</File>
 				<File Id="980963904" Language="SFX">
 					<ShortName>Water, Waves, Lake, Small, Bright, Lapping, Close SND8518.wav</ShortName>
-					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_9C6C0598.wem</Path>
+					<Path>SFX/Water, Waves, Lake, Small, Bright, Lapping, Close SND8518_520B6214.wem</Path>
 				</File>
 				<File Id="1000140916" Language="SFX">
 					<ShortName>Impact, Stone, Large, Hit Ground 3 SND30289.wav</ShortName>
@@ -108,7 +233,15 @@
 				</File>
 				<File Id="1000148977" Language="SFX">
 					<ShortName>Design, Whoosh, Wind, Soft 3 SND11997.wav</ShortName>
-					<Path>SFX/Design, Whoosh, Wind, Soft 3 SND11997_B2912096.wem</Path>
+					<Path>SFX/Design, Whoosh, Wind, Soft 3 SND11997_98E5E00C.wem</Path>
+				</File>
+				<File Id="1013928689" Language="SFX">
+					<ShortName>Glass Shards, Small, Drop Into Container, Break 2 SND28496.wav</ShortName>
+					<Path>SFX/Glass Shards, Small, Drop Into Container, Break 2 SND28496_10C4C929.wem</Path>
+				</File>
+				<File Id="1014775817" Language="SFX">
+					<ShortName>Glass Shards, Small, Drop Into Container, Break 1 SND28497 1.wav</ShortName>
+					<Path>SFX/Glass Shards, Small, Drop Into Container, Break 1 SND28497 1_10C4C929.wem</Path>
 				</File>
 				<File Id="1035041268" Language="SFX">
 					<ShortName>Metal, Impact, Drum, Thud 3 SND7033.wav</ShortName>
@@ -116,7 +249,11 @@
 				</File>
 				<File Id="1040151074" Language="SFX">
 					<ShortName>Wood, Impact, Hit, Table, Hard SND4258.wav</ShortName>
-					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_3705DD0B.wem</Path>
+					<Path>SFX/Wood, Impact, Hit, Table, Hard SND4258_A5648043.wem</Path>
+				</File>
+				<File Id="1040900571" Language="SFX">
+					<ShortName>Design, Whoosh, Low, Short 4 SND11972.wav</ShortName>
+					<Path>SFX/Design, Whoosh, Low, Short 4 SND11972_10C4C929.wem</Path>
 				</File>
 				<File Id="1049911430" Language="SFX">
 					<ShortName>Impact, Stone, Large, Hit Ground 5 SND30287.wav</ShortName>

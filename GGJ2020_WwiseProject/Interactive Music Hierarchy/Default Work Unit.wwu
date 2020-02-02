@@ -3,7 +3,14 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{F9F189BA-0B4B-41D9-897D-291A708E97FA}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicPlaylistContainer Name="Main" ID="{F299D319-949E-4564-9360-D258DFF10A37}" ShortID="939038260">
+				<MusicSwitchContainer Name="Music Switch" ID="{00188BB0-F220-4AAF-9026-522EB8177BB4}" ShortID="782306423">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
@@ -12,23 +19,797 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Fondo 1-Arm" ID="{E8D4349D-DCC0-4A1C-902B-1D7658916B04}" ShortID="822292806">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="46601.9501133787"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Fondo 1-Arm" ID="{0DC7AB7E-E44C-4933-9DFD-8BAE46AC7E31}" ShortID="718391829">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 1-Arm" ID="{D4BC48C3-12E9-4CE9-83E4-C0F0970988B8}" ShortID="688499573">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 1-Arm.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1ABC6097-2214-4F7C-AC4E-F9278C697133}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{FFF1BB15-BD1D-4BBD-9FFB-51D6A319CFD0}">
+											<ClipList>
+												<MusicClip Name="Fondo 1-Arm" ID="{0EF4D47C-1C86-431D-92D2-DD64EC345EB8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 1-Arm" ID="{D4BC48C3-12E9-4CE9-83E4-C0F0970988B8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 3-Fondo" ID="{6E91EAD6-D9B7-4A8A-B50B-319AB60006AD}" ShortID="956594890">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 3-Fondo" ID="{94D0A1C3-E120-4625-99C5-335A5212FAEA}" ShortID="199299788">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 3-Fondo.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="272107460"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F32E2EB1-A143-4CDB-AA0D-00FD2BCD59B8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{90F319AA-5B87-44F7-BA3A-ABCA4940B35C}">
+											<ClipList>
+												<MusicClip Name="Fondo 3-Fondo" ID="{B6E546B8-EACD-45E6-9DBB-425BA6EE77EC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 3-Fondo" ID="{94D0A1C3-E120-4625-99C5-335A5212FAEA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E47AA9F2-A340-482A-8765-1AE73FA9ED3A}"/>
+								<MusicCue Name="Exit Cue" ID="{495DF216-62BD-4299-A6E1-EE7F3058856A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="46601.9501133787"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Fondo 2-Bass" ID="{89074FDC-A29A-4BCD-8A87-17E45E9CE31F}" ShortID="706693092">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="46601.9501133787"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Fondo 2-Bass" ID="{B9B6EC3E-DCD2-4C0A-BBD7-2C6117BBD2FB}" ShortID="208780762">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 2-Bass" ID="{97FA174E-81C0-4AF8-B846-B92E92BB9BE7}" ShortID="380909370">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 2-Bass.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{35416E10-B564-4FE0-9D56-6300DD00F018}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0570A2D5-490E-415A-B5A1-1C9F479D5A5A}">
+											<ClipList>
+												<MusicClip Name="Fondo 2-Bass" ID="{FBE22F49-222F-4693-9C9C-4884823D952A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 2-Bass" ID="{97FA174E-81C0-4AF8-B846-B92E92BB9BE7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 5-Kick" ID="{B799127E-DAAA-4E7E-9949-6AC2E151CFB6}" ShortID="332524391">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 5-Kick" ID="{8E9B5D5D-36DF-4C4C-9FD2-545BC33E9722}" ShortID="1067451890">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 5-Kick.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="690965621"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C6EEA808-EBF1-4361-898F-C489CB70ADAD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9EEC559F-AA8A-437B-B078-468AF37A0388}">
+											<ClipList>
+												<MusicClip Name="Fondo 5-Kick" ID="{DA92E005-2A49-4C5C-9EEE-F19D8A0CE566}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 5-Kick" ID="{8E9B5D5D-36DF-4C4C-9FD2-545BC33E9722}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 7-Snare" ID="{5B9B6D50-CBEA-4215-A0EB-D522B2742A58}" ShortID="347233828">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 7-Snare" ID="{21A95E4B-66A3-4C77-8FDC-48DAE27AB00E}" ShortID="793021182">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 7-Snare.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="349058008"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9E9162F3-071D-4153-BD54-81F8CA61D84F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A5D17099-065C-4653-8289-75EDC635DE1E}">
+											<ClipList>
+												<MusicClip Name="Fondo 7-Snare" ID="{0427A59E-32FE-4981-AB20-5205A0F8AEFD}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 7-Snare" ID="{21A95E4B-66A3-4C77-8FDC-48DAE27AB00E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 1-Arm" ID="{B5329591-7669-451A-9A6E-FFB1FB0D37CF}" ShortID="934624782">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 1-Arm" ID="{96DB95CA-747B-40D7-9E11-2C1F93054863}" ShortID="40620049">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 1-Arm.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="688499573"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6C53C777-713F-4912-A6CC-B0632E3AB74F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{74E076D0-C03B-406A-8401-20ED4486A15E}">
+											<ClipList>
+												<MusicClip Name="Fondo 1-Arm" ID="{843F92F3-4EEF-48DE-B108-5527608909C8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 1-Arm" ID="{96DB95CA-747B-40D7-9E11-2C1F93054863}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 4-Hat" ID="{CE7F3AEF-B3F4-438B-B1CB-11DC32B4741E}" ShortID="623193317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 4-Hat" ID="{590E1CCA-67C0-47AD-A3DD-C0527C535488}" ShortID="795526762">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 4-Hat.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="844152799"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EB592D78-D90C-46A7-B925-CA9362D9C662}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList/>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{26320840-3F32-4578-AD00-EFFC6B365FF0}">
+											<ClipList>
+												<MusicClip Name="Fondo 4-Hat" ID="{67298A0F-E906-4CA4-9A84-3B04298C67CC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 4-Hat" ID="{590E1CCA-67C0-47AD-A3DD-C0527C535488}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 3-Fondo" ID="{279E7C09-FAE2-4AAD-9DF8-E5A6276EDAE3}" ShortID="574083385">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 3-Fondo" ID="{4D09FCC4-2F2C-409C-B7C9-AFA48CE3CFAF}" ShortID="589720317">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 3-Fondo.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="272107460"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E125C921-C581-42FA-80DF-B202C5056AE6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E3483FC6-F25B-4DB9-BAAA-282A27D503FB}">
+											<ClipList>
+												<MusicClip Name="Fondo 3-Fondo" ID="{5E833055-80D3-4279-AFDB-AD173843CE48}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 3-Fondo" ID="{4D09FCC4-2F2C-409C-B7C9-AFA48CE3CFAF}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{A0508305-8C22-4FD2-B9D0-626F8429AB26}"/>
+								<MusicCue Name="Exit Cue" ID="{8EA90618-9041-4EF1-A1C6-69D1C9B6A51C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="46601.9501133787"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Fondo 3-Fondo" ID="{A3F8CD8A-33E6-44CF-B501-BB06A109A1C7}" ShortID="231200333">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="46601.9501133787"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Fondo 3-Fondo" ID="{6B3EF464-F0B2-40F7-9957-8BF2766D2619}" ShortID="605782486">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 3-Fondo" ID="{91A6B87B-DCE2-43ED-8A6C-7C0F69F1681B}" ShortID="272107460">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 3-Fondo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{95F3FEE5-CFF1-4690-8886-5E98DC345D4A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{06C10023-4DAC-4B54-841F-60D3B88664BC}">
+											<ClipList>
+												<MusicClip Name="Fondo 3-Fondo" ID="{FEB782E4-9AA2-461E-9E08-7AF3BDD3E0FF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 3-Fondo" ID="{91A6B87B-DCE2-43ED-8A6C-7C0F69F1681B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{DF338769-E44A-4B66-9DFC-93FA9BB69526}"/>
+								<MusicCue Name="Exit Cue" ID="{1396D735-CBA2-4C72-8ECD-01E19B8AB6D1}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="46601.9501133787"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Fondo 6-Mel" ID="{BF1D81A4-EBB0-4AF3-AFBC-9D719C250A98}" ShortID="845064011">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="46601.9501133787"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Fondo 6-Mel" ID="{F8FFE442-A498-4BC4-9BDA-A3231AF836EC}" ShortID="351257076">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 6-Mel" ID="{ADF56815-FB25-4DCD-A763-51EB5E633D24}" ShortID="33204593">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 6-Mel.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AE717B59-4091-4284-9CC8-FEF294BE3D7A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{964FA3C9-C690-4AE1-8CDC-99953C2969EB}">
+											<ClipList>
+												<MusicClip Name="Fondo 6-Mel" ID="{FC05CBE7-2F24-47B1-8948-CC855A6F4BFE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 6-Mel" ID="{ADF56815-FB25-4DCD-A763-51EB5E633D24}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 7-Snare" ID="{F87C2CBC-B458-4456-852F-FDC5DEA2AF20}" ShortID="373741053">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 7-Snare" ID="{4CB2460B-D62B-4FE3-B4E3-6BC161D46519}" ShortID="778768941">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 7-Snare.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="349058008"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A90C6CCA-31A7-4E2F-B799-24D42058C4BB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{43572515-98FA-41A6-BE86-20B11C2AA17B}">
+											<ClipList>
+												<MusicClip Name="Fondo 7-Snare" ID="{A246FBCE-DCB3-43A4-B9F4-422B621B8C9E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 7-Snare" ID="{4CB2460B-D62B-4FE3-B4E3-6BC161D46519}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 5-Kick" ID="{29444B3B-93AF-4124-A868-695583ADA1F8}" ShortID="571275247">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 5-Kick" ID="{9C5BA0AD-AD73-4368-8C64-60F5103BAD69}" ShortID="964001873">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 5-Kick.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="690965621"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6906695B-8755-4BCE-9477-6A5F7A63DCDC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2860C291-ED88-4F55-A15E-CFD0DE2B8F49}">
+											<ClipList>
+												<MusicClip Name="Fondo 5-Kick" ID="{5953ACB4-3D54-4B36-9AE1-462C9EEBB11D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 5-Kick" ID="{9C5BA0AD-AD73-4368-8C64-60F5103BAD69}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 1-Arm" ID="{634F28BC-5E3E-405F-910F-07EF54DAA2C8}" ShortID="320090905">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 1-Arm" ID="{50D2E3F8-BAB3-4F34-BC80-B0F24824D356}" ShortID="374639305">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 1-Arm.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="688499573"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{BCF41801-233F-46CF-972C-322128D051AD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B79099C5-6C83-42C2-853A-A42E4480D4A2}">
+											<ClipList>
+												<MusicClip Name="Fondo 1-Arm" ID="{B019AC7B-C6AB-4764-AF04-A72DCD56056C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 1-Arm" ID="{50D2E3F8-BAB3-4F34-BC80-B0F24824D356}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 4-Hat" ID="{99612E37-B10E-4DCB-BDC2-F78263BF23DD}" ShortID="706045147">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 4-Hat" ID="{3F5027AF-A396-4018-8FAC-AE06B3F73474}" ShortID="715770043">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 4-Hat.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="844152799"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{66CBF7D1-B4D4-407F-8A27-7ED2D5A7445C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B2963101-E630-4931-A4EF-4B2026A3A98D}">
+											<ClipList>
+												<MusicClip Name="Fondo 4-Hat" ID="{19F6D875-15E0-4312-9EC5-B032AA8C5E49}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 4-Hat" ID="{3F5027AF-A396-4018-8FAC-AE06B3F73474}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo A-Main Hall" ID="{A71F304C-1374-4273-9612-E8EC57E86EF8}" ShortID="73335317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo A-Main Hall" ID="{B90B0FEB-C069-4860-BAEB-A570788B7C94}" ShortID="685858241">
+											<Language>SFX</Language>
+											<AudioFile>Fondo A-Main Hall.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="701693853"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F0BCA079-340F-4CFD-BDCE-2215169C5AA5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CD7A496E-EFCB-4D19-9034-FEE4CADC264C}">
+											<ClipList>
+												<MusicClip Name="Fondo A-Main Hall" ID="{01A97A3D-FE39-4188-8B25-F587B4AE2B19}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo A-Main Hall" ID="{B90B0FEB-C069-4860-BAEB-A570788B7C94}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fondo 3-Fondo" ID="{BB50861D-4BFB-4F54-8EE1-D8F14CDC5F7E}" ShortID="511398901">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DB48522-334D-4708-8B2F-6C8BF740FB43}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F54B73E5-3659-4DC7-AAF2-55B261E9A40C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fondo 3-Fondo" ID="{6F99747A-B17E-46F5-BA7E-3D653E001AC2}" ShortID="745657639">
+											<Language>SFX</Language>
+											<AudioFile>Fondo 3-Fondo.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="272107460"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E52F8F1E-9182-4BA7-A499-6BECA3D88C05}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{522EB8E2-E460-4400-8323-194CAD15D32A}">
+											<ClipList>
+												<MusicClip Name="Fondo 3-Fondo" ID="{8F402992-F35F-4CD5-99CB-FDE851ED215F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="46601.9501133787"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Fondo 3-Fondo" ID="{6F99747A-B17E-46F5-BA7E-3D653E001AC2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D8C0C84B-106F-4671-909D-4D362970C8B2}"/>
+								<MusicCue Name="Exit Cue" ID="{92CE9CF7-47FF-475E-A987-F351B4F35356}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="46601.9501133787"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
 					<TransitionList>
-						<MusicTransition Name="Root" ID="{3F99A00F-08E1-4881-9DD5-56A8E4ADC6E9}">
+						<MusicTransition Name="Root" ID="{54750360-06F3-4E6E-9ABD-99FF23E7B384}">
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{6E67E62F-DA43-49D2-96C3-C0BC302A8468}">
+								<MusicTransition Name="Transition" ID="{EAA42AEE-70A3-4BA3-890E-818044B589E2}">
 									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{F85770AF-C7A3-4FA9-98C5-6AAC8456ECD6}">
+									<PropertyList>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{EC71F991-3A6E-4AB4-96F7-C2FC03282626}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<Playlist>
-						<MusicPlaylistItem Name="" ID="{83A7B8BB-E0DD-4008-8150-CA4A6F99FF94}" ShortID="863823965"/>
-					</Playlist>
-				</MusicPlaylistContainer>
+					<ArgumentList>
+						<ArgumentRef Name="Music" ID="{37EEE616-5C22-4C3E-81C4-6EE31433332D}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Arm" ID="{8D8ACAB1-8288-47D1-8E98-26250A8A58E0}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Fondo 1-Arm" ID="{E8D4349D-DCC0-4A1C-902B-1D7658916B04}" WorkUnitID="{F9F189BA-0B4B-41D9-897D-291A708E97FA}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Fondo" ID="{D0E354D0-2633-4248-A912-DED5A9B9FBDE}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Fondo 3-Fondo" ID="{A3F8CD8A-33E6-44CF-B501-BB06A109A1C7}" WorkUnitID="{F9F189BA-0B4B-41D9-897D-291A708E97FA}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Mel" ID="{55D7C495-04E9-4617-B3D6-982B4B13E445}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Fondo 6-Mel" ID="{BF1D81A4-EBB0-4AF3-AFBC-9D719C250A98}" WorkUnitID="{F9F189BA-0B4B-41D9-897D-291A708E97FA}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
