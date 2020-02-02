@@ -43,6 +43,9 @@ public class PlayerMovement : MonoBehaviour
             {
                 timeSitting = 2f;
                 animator.SetBool("Sitting", true);
+                //Y aqui se hace lo del SoundManager
+                //SoundManager.instance.ChangeState(SoundManager.SoundState.Fondo);
+                //SoundManager.instance.Sentarse();
             }
         }
 
