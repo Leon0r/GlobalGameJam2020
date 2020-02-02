@@ -24,6 +24,14 @@ public class LevelManager : MonoBehaviour
         repairing = false;
     }
 
+    public void ResetPlatforms()
+    {
+        for (int i = 0; i < platforms.Length; i++)
+        {
+            platforms[i].ResetPlatform();
+        }
+    }
+
     // Update is called once per frame
     void Update() {
         isMoving = (lastPlayerPosition != playerMovement.transform.position);
