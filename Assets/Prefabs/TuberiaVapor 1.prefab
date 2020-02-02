@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664436707847922972}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 102.84848, y: -14.9183, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 1}
   m_Children:
@@ -133,7 +133,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8691198100971380217, guid: b77f8866ab2d1ac4b84b0dd8a3c6b3c2,
+  m_Sprite: {fileID: 8691198100971380217, guid: c02ae7033a138064ab87286e534711e5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -222,13 +222,43 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3215691634379093290, guid: 214ae895faf2326468848a4d56086f6f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -967518323215347756, guid: c02ae7033a138064ab87286e534711e5,
+        type: 3}
+    - target: {fileID: 3215691634379093290, guid: 214ae895faf2326468848a4d56086f6f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215691634379093290, guid: 214ae895faf2326468848a4d56086f6f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215691634379093290, guid: 214ae895faf2326468848a4d56086f6f,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215691634379093284, guid: 214ae895faf2326468848a4d56086f6f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215691634379093284, guid: 214ae895faf2326468848a4d56086f6f,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 3.4
+      objectReference: {fileID: 0}
     - target: {fileID: 6001869213997984003, guid: 214ae895faf2326468848a4d56086f6f,
         type: 3}
       propertyPath: force
-      value: 30
+      value: 70
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3215691634379093291, guid: 214ae895faf2326468848a4d56086f6f, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 214ae895faf2326468848a4d56086f6f, type: 3}
 --- !u!1 &2765935352791624320 stripped
 GameObject:
