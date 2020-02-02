@@ -26,6 +26,11 @@ public class PlayerMovement : MonoBehaviour
         characterController = GetComponent<CharacterController2D>();
     }
 
+    public void Dead()
+    {
+        transform.position = initPos;
+    }
+
     //Get the input from the player
     void Update()
     {
