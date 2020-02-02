@@ -261,6 +261,7 @@ MonoBehaviour:
   m_JumpForce: 600
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
+  m_time: 0.05
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
@@ -268,6 +269,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 3343515076082004314}
   m_CeilingCheck: {fileID: 3343515076846241607}
   m_CrouchDisableCollider: {fileID: 0}
+  animator: {fileID: 3343515077163465393}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
